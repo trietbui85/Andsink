@@ -57,7 +57,7 @@ public class Layouts extends BaseListActivity {
 		LISTDATA.add(new String[] {"BaseLine", "One of the most simple layout",	
 				"fr.playsoft.andsink.view.layout.BaseLine"});
 		LISTDATA.add(new String[] {"LinearLayout", "The most popular and useful layout of Android", 
-				"fr.playsoft.andsink.KSEmpty"});
+				"fr.playsoft.andsink.view.layout.LinearLayout"});
 		LISTDATA.add(new String[] {"RelativeLayout", "Relative layout", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"ScrollView", "Scroll view", 

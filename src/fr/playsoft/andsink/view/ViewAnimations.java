@@ -35,7 +35,8 @@ public class ViewAnimations extends BaseListActivity {
 				"- Wave scale<br />" +
 				"- Nested Animations<br />";
 		
-		 ACTIVITY_USING_RES = "<b>Java file:</b><br />" +
+		 ACTIVITY_USING_RES = 
+			 "<b>Java file:</b><br />" +
 		 		"- ViewAnimations.java<br />" +
 		 		"<b>XML</b><br />" +
 		 		"- Main layout: ks_list_template<br />" +
