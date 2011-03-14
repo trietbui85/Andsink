@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Baseline: nested 1 -->
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/LinerLayoutSectionVertical">
+	
+  	<TextView style="@style/TextSectionTitle" 
+  		android:text="6. Nested layout 1" />
+  	
+  	<LinearLayout style="@style/LinerLayoutSectionHorizontal200" >
+  		
+  		<TextView style="@style/TextSectionDesc" 
+	        android:layout_marginRight="3dip"
+	        android:layout_gravity="center_vertical"
+	        android:text="Baseline 1" />
+	
+	    <!-- We want the middle textview of this vertical linear layout to
+	      be baseline aligned with the others.-->
+	    <LinearLayout
+	            android:orientation="vertical"
+	            android:baselineAlignedChildIndex="1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical">
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_arrow_up_float"/>
+	        <TextView style="@style/TextSectionDesc" 
+	            android:layout_marginRight="5dip"
+	            android:text="Baseline 2" />
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_arrow_down_float"/>
+	    </LinearLayout>
+			
+	    <!-- We want the third index textview of this vertical linear layout to
+	      be baseline aligned with the others.-->
+	    <LinearLayout
+	            android:orientation="vertical"
+	            android:baselineAlignedChildIndex="2"
+	            android:layout_width="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:layout_height="wrap_content">
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_arrow_up_float"/>
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/ic_arrow_up_float"/>
+	        <TextView style="@style/TextSectionDesc" 
+	            android:layout_marginRight="5dip"
+	            android:text="Baseline 3" />
+	    </LinearLayout>
+	
+	
+	    <TextView style="@style/TextSectionDesc" 
+	        android:textSize="20sp"
+	        android:layout_gravity="center_vertical"
+	        android:text="Baseline 4" />
+	        
+  	</LinearLayout>
+</LinearLayout>

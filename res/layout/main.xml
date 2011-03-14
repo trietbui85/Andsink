@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+	
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@+id/ks_grid_main"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:numColumns="2"
+	  	android:columnWidth="160dip"
+	    android:stretchMode="spacingWidth"
+		android:listSelector="@color/white"  
+	/>
+	
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello AndSink!</string>
+    <string name="app_name">Android Kitchen Sink</string>
+    
+    <string name="forget_setup_layout">You see this text because you forget setup your layout.\n
+    
+    Please setup your desired layout in function setupMainLayoutId()\n
+    
+    Ex: <b>APP_LAYOUT = R.id.main;</b></string>
+    
+    <string name="tab1_name">View</string>
+    <string name="tab2_name">Controls</string>
+    <string name="tab3_name">Phone</string>
+    <string name="tab4_name">File-System</string>
+    <string name="tab5_name">Network</string>
+    <string name="tab6_name">About</string>
+    <string name="press_menu">Press MenuKey</string>
+    
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="txt_misc">The brown fox jumped over the lazy dog.</string>
+    <string name="btn_clearcache">Clear Cache</string>
+    
+    <!-- Layout string -->
+    <string name="linearlayout_01_mi_vertical">Vertical</string>
+    <string name="linearlayout_01_mi_horizontal">Horizontal</string>
+    
+    <string name="linearlayout_02_a">Press menu for more options</string>
+    <string name="linearlayout_02_mi_width_fillparent">FillParent Width</string>
+    <string name="linearlayout_02_mi_height_fillparent">FillParent Height</string>
+    <string name="linearlayout_02_mi_width_wrapcontent">WrapContent Width</string>
+    <string name="linearlayout_02_mi_height_wrapcontent">WrapContent Height</string>
+    <string name="linearlayout_02_mi_width_100">Width 100dip</string>
+    <string name="linearlayout_02_mi_height_100">Height 100dip</string>
+    <string name="linearlayout_02_mi_width_200">Width 200dip</string>
+    <string name="linearlayout_02_mi_height_200">Height 200dip</string>
+    <string name="linearlayout_02_mi_width_400">Width 400dip</string>
+    <string name="linearlayout_02_mi_height_300">Height 300dip</string>
+    
+    <string name="linearlayout_03_instruction">Press menu for more options</string>
+    <string name="linearlayout_03_a">Press menu</string>
+    <string name="linearlayout_03_b">for</string>
+    <string name="linearlayout_03_c">more options</string>
+    <string name="linearlayout_03_vertical">Vertical</string>
+    <string name="linearlayout_03_horizontal">Horizontal</string>
+    <string name="linearlayout_03_top">Top</string>
+    <string name="linearlayout_03_middle">Middle</string>
+    <string name="linearlayout_03_bottom">Bottom</string>
+    <string name="linearlayout_03_left">Left</string>
+    <string name="linearlayout_03_center">Center</string>
+    <string name="linearlayout_03_right">Right</string>
+    
+    <string name="linearlayout_04_mi_toggle">Toggle Weight of List</string>
+    
+    <string name="linearlayout_05_mi_padding">Padding 30dip</string>
+    <string name="linearlayout_05_mi_paddingLeft">PaddingLeft 50dip</string>
+    <string name="linearlayout_05_mi_paddingRight">PaddingRight 50dip</string>
+    <string name="linearlayout_05_mi_paddingTop">PaddingTop 50dip</string>
+    <string name="linearlayout_05_mi_paddingBottom">PaddingBottom 50dip</string>
+    
+    <string name="linearlayout_06_from">From: </string>
+    <string name="linearlayout_06_to">To: </string>
+    
+    <string name="linearlayout_07_instruction">Type here</string>
+    <string name="linearlayout_07_cancel">Cancel</string>
+    <string name="linearlayout_07_ok">OK</string>
+    
+    <string name="baseline_01_tv01">Label:</string>
+    <string name="baseline_01_btn01">Button</string>
+    <string name="baseline_01_tv02">Bigger</string>
+    <string name="baseline_01_tv03">Label again:</string>
+    <string name="baseline_01_tv04">Label Me</string>
+    <string name="baseline_01_tv_explain_01">Press menu keyfor more options.\nBaseLine Top layout</string>
+    <string name="baseline_01_tv_explain_02">Press menu keyfor more options.\nBaseLine Bottom layout</string>
+    <string name="baseline_01_tv_explain_03">Press menu keyfor more options.\nBaseLine Center layout</string>
+    <string name="baseline_01_tv_explain_04">Press menu keyfor more options.\nBaseLine Center everywhere\nRemember to set LinearLayout orientation to horizontal</string>
+    <string name="baseline_01_mi_top">Top</string>
+    <string name="baseline_01_mi_bottom">Bottom</string>
+    <string name="baseline_01_mi_center">Center</string>
+    <string name="baseline_01_mi_everywhere">Everywhere</string>    
+    <string name="baseline_02_multiline">This is a\nmulti-line field.</string>
+    <string name="baseline_02_baseline">Baseline aligned.</string>    
+    <string name="baseline_03_bold">Big and bold</string>
+    <string name="baseline_03_small">Slim and slick</string>
+    <string name="baseline_03_si_toggle_align_baseline">Toglge AlignBaseLine</string>
+    <string name="baseline_03_si_toggle_align_parent_right">Toglge AlignParentRight</string>    
+    <string name="baseline_04_label_01">Label 1</string>
+    <string name="baseline_04_label_02">Label 2</string>
+    <string name="baseline_04_label_03">Label 3</string>
+    <string name="baseline_04_label_04">Press Menu</string>
+    <string name="baseline_04_mi_type1">Type 1</string>
+    <string name="baseline_04_mi_type2">Type 2</string>
+    <string name="baseline_04_mi_type3">Type 3</string>
+    
+    <string name="realativelayout_01_red">Red</string>
+    <string name="realativelayout_01_yellow">Yellow</string>
+    <string name="realativelayout_01_blue">Blue</string>
+    <string name="realativelayout_03_back">Back</string>
+    <string name="realativelayout_03_firstName">First Nameeee</string>
+    <string name="realativelayout_03_lastName">Last Name</string>
+    <string name="realativelayout_04_title">My Application</string>
+    <string name="realativelayout_04_desc">This description is very very very very very very very very very long.</string>
+    
+    <string name="scrollview_01_short"><b>Press Menu Key</b>\nThis is a\nshort scrolview</string>
+    <string name="scrollview_01_long"><b>Press Menu Key</b>\n\n
+Look into your dark ble eyes\n
+I can fell you searching my heart\n
+You’ll find there‘s no need you hide\n
+We know that is love\n
+Now I’m looking through your heart \n
+I can tell you that it is true love \n
+Thank you for the time we have \n
+We know that is love\n
+Don’t tell me that love’s not waiting for us \n
+If we really want to , we can try\n
+But you and I , gotta make it happen\n
+Since we know that’s love \n
+Don’t tell me that love’s not waiting for us\n
+If we really want to , we can try\n
+What you’ve done \n
+We know that is love\n\n
+Every time when I think of you\n
+It’s always thing goes into my mind \n
+I just want to hold you close\n
+We know that is love\n
+Yes I want to share my dreams\n
+And hope that you will be there \n
+Please do love me like before \n
+We know that is love\n
+Now I’m looking through your heart\n
+I can tell you that it is true love \n
+Thank you for the time we have\n
+We know that is love\n
+    </string>
+    <string name="scrollview_01_mi_toggle">Toggle Short/Long</string>
+    <string name="scrollview_02_title">This is a scrollview</string>
+    <string name="scrollview_02_mi_type1">Type 1</string>
+    <string name="scrollview_02_mi_type2">Type 2</string>
+    <string name="scrollview_02_mi_type3">Type 3</string>
+    <string name="scrollview_02_mi_type4">Type 4</string>
+    <string name="scrollview_04_text">Look into your dark ble eyes.
+I can fell you searching my heart 
+You’ll find there‘s no need you hide 
+We know that is love 
+Now I’m looking through your heart 
+I can tell you that it is true love 
+Thank you for the time we have 
+We know that is love 
+Don’t tell me that love’s not waiting for us 
+If we really want to , we can try 
+But you and I , gotta make it happen 
+Since we know that’s love 
+Don’t tell me that love’s not waiting for us 
+If we really want to , we can try
+What you’ve done 
+We know that is love\n\n</string>
+	<string name="scrollview_05_text">This description is very very very very very very very very very long.</string>
+    
+    <string name="title_05">This is an Action Bar</string>
+    <string name="title_05_refresh">This is Refresh button in Action Bar</string>
+    <string name="title_05_search">This is Search button in Action Bar</string>
+    
+</resources>

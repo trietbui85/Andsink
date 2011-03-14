@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="fr.playsoft.andsink"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" 
+    	android:theme="@android:style/Theme.Light">
+        <activity android:name="AndSink"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".KSEmpty" ></activity>
+        
+        <activity android:name=".KSFileSystem" ></activity>
+        <activity android:name=".KSViews" ></activity>
+        <activity android:name=".KSControls" ></activity>
+        <activity android:name=".KSPhone" ></activity>
+        <activity android:name=".KSNetwork" ></activity>
+		
+		<!-- Views -> Layouts -->
+		<activity android:name=".view.Layouts" ></activity>
+		<activity android:name=".view.layout.BaseLine" ></activity>
+		
+		
+		<!-- Views -> Animations -->
+		<activity android:name=".view.ViewAnimations" ></activity>
+		<activity android:name=".view.anim.GridFade" ></activity>
+		
+    </application>
+</manifest>

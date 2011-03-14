@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+<!-- 	<ScrollView style="@style/RootScrollView"> -->
+<!-- 	<LinearLayout style="@style/RootLinearLayoutVertical" > -->
+	
+	  	<!-- Add controls or views here -->
+	  	<GridView android:id="@+id/anim_01_grid"
+		    android:layoutAnimation="@anim/anim_gridfade"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="10dp"
+		    android:verticalSpacing="10dp"
+		    android:horizontalSpacing="10dp"
+		    android:numColumns="auto_fit"
+		    android:columnWidth="60dp"
+		    android:stretchMode="columnWidth"
+		    android:gravity="center" />
+	  	
+<!-- 	</LinearLayout> -->
+<!-- 	</ScrollView> -->
+	
+</LinearLayout>

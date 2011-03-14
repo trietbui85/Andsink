@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tabbar_corner_radius">0.5dp</dimen>
+    <dimen name="tabbar_space_top">0px</dimen>
+    <dimen name="tabbar_space">0.5dp</dimen>
+    <dimen name="tabbar_space_plus1">1dp</dimen>
+    <dimen name="tabbar_separator_line_w">4dip</dimen>
+	
+	<dimen name="titlebar_height">50dip</dimen>
+	<dimen name="titlebar_icon_width">56dip</dimen>
+	<dimen name="titlebar_progress_width">40dip</dimen>
+	<dimen name="titlebar_progress_height">40dip</dimen>
+	<dimen name="titlebar_progress_margin">10dip</dimen>
+	
+	<dimen name="titlebar_seperator_width">1px</dimen>
+	<dimen name="ks_titlebar_textsize">23sp</dimen>
+	
+	<dimen name="ks_lsit_row_height">60dip</dimen>
+	
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="@dimen/ks_lsit_row_height"
+	android:minHeight="@dimen/ks_lsit_row_height"
+	android:orientation="vertical"
+	android:background="@drawable/ks_list_row_selector"
+	>
+	<TextView android:text="List Item title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/ks_list_row_title"
+		android:layout_marginTop="5dip"
+		android:layout_marginLeft="5dip"
+		android:layout_marginRight="8dip"
+		android:maxLines="1"
+		android:typeface="sans"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="@color/blue"
+		/>
+	<TextView android:text="List Item description"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/ks_list_row_desc"
+		android:layout_marginLeft="5dip"
+		android:maxLines="2"
+		android:typeface="sans"
+		android:textSize="14sp"
+		android:textStyle="normal"
+		android:textColor="@color/black"
+		/>
+	
+</LinearLayout>
+

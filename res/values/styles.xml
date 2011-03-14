@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="MainTitleBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/title_background</item> 
+    </style>
+	
+	<style name="TitleBarLogo">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:id">@+id/titlebar_logo</item>
+		<item name="android:clickable">false</item>
+	</style>
+	
+	<style name="TitleBarSpring">
+		<item name="android:layout_width">0dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	
+	<style name="TitleBarSeparator">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/title_separator</item>
+    </style>
+    
+    <style name="TitleBarAction">
+    	<item name="android:layout_width">@dimen/titlebar_height</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+	
+	<style name="LinerLayoutSectionVertical">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	
+	<style name="LinerLayoutSectionHorizontal">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	
+	<style name="LinerLayoutSectionHorizontal100">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">100dip</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	
+	<style name="LinerLayoutSectionHorizontal200">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">200dip</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	
+	<style name="TextSectionTitle">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:background">@color/black</item>
+	</style>
+	
+	<style name="TextSectionDesc">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	
+	<style name="RootScrollView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	
+	<style name="RootLinearLayoutVertical">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	
+	<style name="RootLinearLayoutHorizontal">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	
+</resources>

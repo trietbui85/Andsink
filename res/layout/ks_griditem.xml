@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="140dip" 
+	android:layout_height="130dip"
+	android:orientation="vertical"
+	android:id="@+id/mm_video"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingTop="5dip"
+	android:background="@drawable/ks_griditem_selector"		
+	>				
+	<ImageView
+		android:id="@+id/ks_griditem_thumb"
+		android:layout_width="fill_parent"
+		android:layout_height="95dip"
+		android:scaleType="centerInside"
+		/>
+		
+	<TextView 
+		android:text="Video title here"
+		android:layout_width="fill_parent"
+		android:layout_height="30dip"	
+		android:textSize="16sp"
+		android:textColor="@color/blue"
+		android:textStyle="bold"
+		android:typeface="sans"
+		android:paddingBottom="5dip"
+		android:id="@+id/ks_griditem_title"
+		android:gravity="center_horizontal"
+		/>
+		
+</LinearLayout>
+

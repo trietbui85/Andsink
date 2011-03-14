@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+	<ScrollView style="@style/RootScrollView">
+	<LinearLayout style="@style/RootLinearLayoutVertical" >
+	
+	  	<!-- Add controls or views here -->
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:text="Nothing here yet! This is an empty page. Please setup layout by assign
+	   ACTIVITY_LAYOUT in setupMainLayoutId()"
+	  		/>
+	  	
+	</LinearLayout>
+	</ScrollView>
+	
+</LinearLayout>
