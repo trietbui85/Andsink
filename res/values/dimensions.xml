@@ -17,4 +17,7 @@
 	
 	<dimen name="ks_lsit_row_height">60dip</dimen>
 	
+	<dimen name="layout_ll_w200">200dip</dimen>
+	<dimen name="layout_ll_h100">100dip</dimen>
+	
 </resources>

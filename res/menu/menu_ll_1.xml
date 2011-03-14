@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mi_width_fillparent" android:title="Width Fill Parent" />
+
+    <item android:id="@+id/mi_width_wrapcontent" android:title="Width Wrap Content" />
+
+    <item android:id="@+id/mi_width_const" android:title="Width = 200 dip" />
+
+    <item android:id="@+id/mi_height_fillparent" android:title="Height Fill Parent" />
+    
+    <item android:id="@+id/mi_height_wrapcontent" android:title="Height Wrap Content" />
+
+    <item android:id="@+id/mi_height_const" android:title="Height = 100dip" />
+
+</menu>

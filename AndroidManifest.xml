@@ -25,8 +25,9 @@
 		
 		<!-- Views -> Layouts -->
 		<activity android:name=".view.Layouts" ></activity>
-		<activity android:name=".view.layout.BaseLine" ></activity>
-		<activity android:name=".view.layout.LinearLayout" ></activity>
+		<activity android:name=".view.layout.KSBaseLines" ></activity>
+		<activity android:name=".view.layout.KSLinearLayout" ></activity>
+		<activity android:name=".view.layout.LLWidthHeight" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

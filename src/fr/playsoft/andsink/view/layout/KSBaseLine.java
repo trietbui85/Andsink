@@ -4,7 +4,7 @@ import fr.playsoft.andsink.BaseActivity;
 import fr.playsoft.andsink.R;
 
 
-public class BaseLine extends BaseActivity {
+public class KSBaseLine extends BaseActivity {
 
 	@Override
 	public void setupMainLayoutId() {

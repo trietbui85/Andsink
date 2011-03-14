@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseListActivity;
  * @author Admin
  *
  */
-public class LinearLayout extends BaseListActivity {
+public class KSLinearLayout extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -37,13 +37,15 @@ public class LinearLayout extends BaseListActivity {
 		
 		ACTIVITY_USING_RES = 
 				"<b>Java file:</b><br />" +
-		 		"- LinearLayout.java (main)<br />" +
+		 		"- KSLinearLayout.java (main)<br />" +
 		 		"- BaseListActivity.java (parent)<br />" +
 		 		"<b>Layout</b><br />" +
 		 		"- ks_list_template (main)<br />" +
 		 		"- ks_list_row.xml, ks_custom_titlebar<br />" +
 		 		"<b>Drawable</b><br />" +
 		 		"- ks_list_row_selector.xml<br />" +
+		 		"<b>Menu</b><br />" +
+		 		"- N/A<br />" +
 		 		"<b>Anim</b><br />" +
 		 		"- N/A<br />" +
 		 		"<b>Android Manifest</b><br />" ;
@@ -59,9 +61,9 @@ public class LinearLayout extends BaseListActivity {
 		LISTDATA.add(new String[] {"Vertical - Horizontal", 
 				"Linear Layout in vertical & horizontal orientation",	
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Fill Parent - Wrap Content", 
+		LISTDATA.add(new String[] {"Layout width and height", 
 				"Set width and height of linear layout", 
-				"fr.playsoft.andsink.KSEmpty"});
+				"fr.playsoft.andsink.view.layout.LLWidthHeight"});
 		LISTDATA.add(new String[] {"Padding - Margin", "Relative layout", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Gravity", "Use layout gravity for alignment", 
