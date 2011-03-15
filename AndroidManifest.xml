@@ -25,7 +25,7 @@
 		
 		<!-- Views -> Layouts -->
 		<activity android:name=".view.Layouts" ></activity>
-		<activity android:name=".view.layout.KSBaseLines" ></activity>
+		<activity android:name=".view.layout.KSBaseLine" ></activity>
 		<activity android:name=".view.layout.KSLinearLayout" ></activity>
 		<activity android:name=".view.layout.LLWidthHeight" ></activity>
 		
