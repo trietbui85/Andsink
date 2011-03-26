@@ -3,7 +3,11 @@
       package="fr.playsoft.andsink"
       android:versionCode="1"
       android:versionName="1.0">
-
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name" 
     	android:theme="@android:style/Theme.Light">
@@ -32,6 +36,10 @@
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>
 		<activity android:name=".view.anim.GridFade" ></activity>
+		
+		<!-- Network -> Facebook -->
+		<activity android:name=".network.Facebook" ></activity>
+		<activity android:name=".network.facebook.FacebookSharing" ></activity>
 		
     </application>
 </manifest>
