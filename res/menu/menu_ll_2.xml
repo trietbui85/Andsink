@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mi_ll2_vertical" android:title="Vertical" />
+
+    <item android:id="@+id/mi_ll2_horizontal" android:title="Horizontal" />
+	
+</menu>

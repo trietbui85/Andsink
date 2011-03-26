@@ -14,7 +14,8 @@
     <string name="tab3_name">Phone</string>
     <string name="tab4_name">File-System</string>
     <string name="tab5_name">Network</string>
-    <string name="tab6_name">About</string>
+    <string name="tab6_name">Mashup</string>
+    <string name="tab7_name">About</string>
     <string name="press_menu">Press MenuKey</string>
     
     <string name="btn_ok">OK</string>

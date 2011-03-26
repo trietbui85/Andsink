@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical">
+
+	<!-- custom titlebar -->
+	<include layout="@layout/ks_custom_titlebar" />
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:layout_weight="1"
+		android:orientation="vertical">
+		<TextView android:text="red" android:gravity="center_horizontal|center_vertical"
+			android:background="@color/red" 
+			android:layout_width="fill_parent" android:layout_height="fill_parent" 
+			android:layout_weight="1" />
+			
+		<TextView android:text="green" android:gravity="center_horizontal|center_vertical"
+			android:background="@color/green" 
+			android:layout_width="fill_parent" android:layout_height="fill_parent" 
+			android:layout_weight="1" />
+			
+		<TextView android:text="blue" android:gravity="center_horizontal|center_vertical"
+			android:background="@color/blue" 
+			android:layout_width="fill_parent" android:layout_height="fill_parent" 
+			android:layout_weight="1" />
+			
+		<TextView android:text="yellow" android:gravity="center_horizontal|center_vertical"
+			android:background="@color/yellow" 
+			android:layout_width="fill_parent" android:layout_height="fill_parent" 
+			android:layout_weight="1" />
+	</LinearLayout>
+
+</LinearLayout>

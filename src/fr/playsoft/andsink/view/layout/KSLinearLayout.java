@@ -58,12 +58,13 @@ public class KSLinearLayout extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Vertical - Horizontal", 
-				"Linear Layout in vertical & horizontal orientation",	
-				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Layout width and height", 
 				"Set width and height of linear layout", 
 				"fr.playsoft.andsink.view.layout.LLWidthHeight"});
+		LISTDATA.add(new String[] {"Vertical - Horizontal", 
+				"Linear Layout in vertical & horizontal orientation",	
+				"fr.playsoft.andsink.view.layout.LLOrientation"});
+		
 		LISTDATA.add(new String[] {"Padding - Margin", "Relative layout", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Gravity", "Use layout gravity for alignment", 

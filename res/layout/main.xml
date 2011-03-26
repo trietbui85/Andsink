@@ -13,9 +13,11 @@
 	    android:id="@+id/ks_grid_main"
 	    android:layout_width="fill_parent" 
 	    android:layout_height="fill_parent"
-	    android:numColumns="2"
+	    android:numColumns="3"
 	  	android:columnWidth="160dip"
-	    android:stretchMode="spacingWidth"
+	  	android:layout_marginLeft="10dip"
+	  	android:layout_marginRight="10dip"
+	    android:stretchMode="columnWidth"
 		android:listSelector="@color/white"  
 	/>
 	

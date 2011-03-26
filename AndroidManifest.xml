@@ -32,6 +32,7 @@
 		<activity android:name=".view.layout.KSBaseLine" ></activity>
 		<activity android:name=".view.layout.KSLinearLayout" ></activity>
 		<activity android:name=".view.layout.LLWidthHeight" ></activity>
+		<activity android:name=".view.layout.LLOrientation" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

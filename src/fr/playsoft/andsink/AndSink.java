@@ -17,12 +17,13 @@ public class AndSink extends BaseActivity {
 	private GridView grid;
 	
 	private final int[][] GRID_THUMBNAIL_TEXT = {
-			{R.drawable.ic_title_info, R.string.tab1_name},
-			{R.drawable.ic_title_info, R.string.tab2_name},
-			{R.drawable.ic_title_info, R.string.tab3_name},
-			{R.drawable.ic_title_info, R.string.tab4_name},
-			{R.drawable.ic_title_info, R.string.tab5_name},
-			{R.drawable.ic_title_info, R.string.tab6_name},
+			{R.drawable.ic_views, R.string.tab1_name},
+			{R.drawable.ic_controls, R.string.tab2_name},
+			{R.drawable.ic_phone, R.string.tab3_name},
+			{R.drawable.ic_android, R.string.tab4_name},
+			{R.drawable.ic_android, R.string.tab5_name},
+			{R.drawable.ic_mashup, R.string.tab6_name},
+			{R.drawable.ic_title_info_default, R.string.tab7_name}
 	};
 	
 	class AndSinkGridAdapter extends BaseAdapter 
@@ -137,6 +138,9 @@ public class AndSink extends BaseActivity {
 					intent = new Intent(AndSink.this, KSNetwork.class);
 					break;
 				case 5:
+					intent = new Intent(AndSink.this, KSEmpty.class);
+					break;
+				case 6:
 					intent = new Intent(AndSink.this, KSEmpty.class);
 					break;
 				default:
