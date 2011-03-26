@@ -3,85 +3,92 @@
 <LinearLayout android:layout_width="fill_parent" 
 	xmlns:android="http://schemas.android.com/apk/res/android" 
 	android:layout_height="fill_parent" 
+	android:minWidth="240dip"
 	android:orientation="vertical"
 	android:layout_margin="20dip"
 	android:background="@color/white"
 	>
-<TextView
-	android:layout_width="fill_parent"
-	android:layout_height="@dimen/titlebar_height"
-	android:background="@color/title_background"
-	android:textColor="@color/white"
-	android:textSize="16sp"
-	android:textStyle="bold"
-	android:paddingTop="3dip"
-	android:gravity="center_vertical|center_horizontal"
-	android:id="@+id/ks_infodialog_tv0"
-	android:text="Android Kitchen Sink"
-	android:maxLines="2"
-	/>
-<ScrollView
-	android:layout_width="fill_parent" 
-	xmlns:android="http://schemas.android.com/apk/res/android" 
-	android:layout_height="0dip"
-	android:layout_weight="1" 
-	>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/titlebar_height"
+		android:background="@color/title_background"
+		android:textColor="@color/white"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:paddingTop="3dip"
+		android:gravity="center_vertical|center_horizontal"
+		android:id="@+id/ks_infodialog_tv0"
+		android:text="Android Kitchen Sink"
+		android:maxLines="2"
+		/>
+	<ScrollView
+		android:layout_width="fill_parent" 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_height="0dip"
+		android:layout_weight="1" 
+		>
+		<LinearLayout android:layout_width="fill_parent" 
+			xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_height="fill_parent" 
+			android:orientation="vertical"
+			android:background="@color/white"
+			android:paddingRight="3dip"
+			android:minHeight="150dip"
+			>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@color/black"
+				android:textColor="@color/white"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:paddingLeft="3dip"
+				android:paddingTop="3dip"
+				android:id="@+id/ks_infodialog_tv1"
+				android:text="General"
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/ks_infodialog_tv2"
+				android:paddingLeft="3dip"
+				android:textColor="@color/black"
+				android:text="This is content of first tab"
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@color/black"
+				android:textColor="@color/white"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:paddingLeft="3dip"
+				android:paddingTop="3dip"
+				android:id="@+id/infodialog_tv3"
+				android:text="Resource using"
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/ks_infodialog_tv4"
+				android:paddingLeft="3dip"
+				android:textColor="@color/black"
+				android:text="This is content of second tab"
+				/>
+		</LinearLayout>
+	</ScrollView>
 	<LinearLayout android:layout_width="fill_parent" 
-	xmlns:android="http://schemas.android.com/apk/res/android" 
-	android:layout_height="fill_parent" 
-	android:orientation="vertical"
-	android:background="@color/white"
-	android:minHeight="150dip"
-	>
-	<TextView
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="wrap_content" 
 		android:background="@color/black"
-		android:textColor="@color/white"
-		android:textSize="14sp"
-		android:textStyle="bold"
-		android:paddingLeft="3dip"
-		android:paddingTop="3dip"
-		android:id="@+id/ks_infodialog_tv1"
-		android:text="General"
-		/>
-	<TextView
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/ks_infodialog_tv2"
-		android:paddingLeft="3dip"
-		android:textColor="@color/black"
-		android:text="This is content of first tab"
-		/>
-	<TextView
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:background="@color/black"
-		android:textColor="@color/white"
-		android:textSize="14sp"
-		android:textStyle="bold"
-		android:paddingLeft="3dip"
-		android:paddingTop="3dip"
-		android:id="@+id/infodialog_tv3"
-		android:text="Resource using"
-		/>
-	<TextView
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/ks_infodialog_tv4"
-		android:paddingLeft="3dip"
-		android:textColor="@color/black"
-		android:text="This is content of second tab"
-		/>
+		>
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:text="OK"
+			android:id="@+id/ks_infodialog_ok"
+			android:gravity="center_vertical|center_horizontal"
+			/>
 	</LinearLayout>
-</ScrollView>
-<Button
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:layout_marginLeft="20dip"
-	android:layout_marginRight="20dip"
-	android:text="OK"
-	android:id="@+id/ks_infodialog_ok"
-	android:gravity="center_vertical|center_horizontal"
-	/>
 </LinearLayout>
