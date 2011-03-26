@@ -161,4 +161,7 @@ We know that is love\n\n</string>
     <string name="title_05_refresh">This is Refresh button in Action Bar</string>
     <string name="title_05_search">This is Search button in Action Bar</string>
     
+    <string name="STR_FACEBOOK_FAILED">Sorry, sharing via Facebook failed.</string>
+    <string name="STR_FACEBOOK_SUCCESSFUL">Congrat! Sharing via Facebook successful.</string>
+    
 </resources>
