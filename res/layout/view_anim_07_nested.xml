@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+<!-- 	<ScrollView style="@style/RootScrollView"> -->
+<!-- 	<LinearLayout style="@style/RootLinearLayoutVertical" > -->
+	
+	  	<!-- Add controls or views here -->
+	  	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layoutAnimation="@anim/anim_table_nested"
+		    android:animationCache="false"
+		    android:clipToPadding="false"
+		    android:padding="12dp"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:stretchColumns="1">
+		
+		    <TableRow
+		        android:layoutAnimation="@anim/anim_row_right_slide">
+		        <TextView
+		            android:gravity="right"
+		            android:text="First Name: " />
+		        <EditText />
+		    </TableRow>
+		
+		    <TableRow
+		        android:layoutAnimation="@anim/anim_row_left_slide">
+		        <TextView
+		            android:gravity="right"
+		            android:text="Last Name: " />
+		        <EditText />
+		    </TableRow>
+		
+		    <TableRow
+		        android:layoutAnimation="@anim/anim_row_right_slide">
+		        <TextView
+		            android:gravity="right"
+		            android:text="Phone: " />
+		        <EditText />
+		    </TableRow>
+		
+		    <TableRow
+		        android:layoutAnimation="@anim/anim_row_left_slide">
+		        <TextView
+		            android:gravity="right"
+		            android:text="Address: " />
+		        <EditText android:lines="3" />
+		    </TableRow>
+		</TableLayout>
+
+	  	
+<!-- 	</LinearLayout> -->
+<!-- 	</ScrollView> -->
+	
+</LinearLayout>

@@ -79,8 +79,16 @@ public class ViewAnimations extends BaseListActivity {
 				"List has items displayed with Cascade effect in Inverse order (anim by xml)", 
 				"fr.playsoft.andsink.view.anim.ListCascadeReverse"});
 		
+		LISTDATA.add(new String[] {"Layout Anim Left", 
+				"Layout Anim with moving from right to left effect", 
+				"fr.playsoft.andsink.view.anim.LayoutAnimLeft2Right"});
+		
+		LISTDATA.add(new String[] {"Layout Anim Right", 
+				"Layout Anim with moving from left to right effect", 
+				"fr.playsoft.andsink.view.anim.LayoutAnimRight2Left"});
+		
 		LISTDATA.add(new String[] {"Nested Animations", "Nested Animations", 
-				"fr.playsoft.andsink.KSEmpty"});
+				"fr.playsoft.andsink.view.anim.NestedAnim"});
 		
 	}
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+<!-- 	<ScrollView style="@style/RootScrollView"> -->
+	<LinearLayout style="@style/RootLinearLayoutVertical"
+		android:orientation="vertical" 
+		android:id="@+id/view_anim_layout_main">
+	
+	  	<!-- Add controls or views here -->
+	  	<ImageView
+	  		android:layout_width="300dip"
+	  		android:layout_height="300dip"
+	  		android:src="@drawable/android_phone"
+	  		/>
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:text="This is example layout for demoing View Animation"
+	  		android:textSize="15sp" />
+	</LinearLayout>
+<!-- 	</ScrollView> -->
+	
+</LinearLayout>

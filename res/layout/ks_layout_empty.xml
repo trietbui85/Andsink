@@ -7,7 +7,8 @@
 	<include layout="@layout/ks_custom_titlebar"/> 
   	
 	<ScrollView style="@style/RootScrollView">
-	<LinearLayout style="@style/RootLinearLayoutVertical" >
+	<LinearLayout style="@style/RootLinearLayoutVertical" 
+		android:layoutAnimation="@anim/anim_row_left_slide" >
 	
 	  	<!-- Add controls or views here -->
 	  	<TextView
