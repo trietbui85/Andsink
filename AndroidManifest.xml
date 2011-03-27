@@ -47,6 +47,11 @@
 		<activity android:name=".view.anim.LayoutAnimFadein" ></activity>
 		<activity android:name=".view.anim.LayoutAnimFadeout" ></activity>
 		<activity android:name=".view.anim.NestedAnim" ></activity>
+		<!-- ~~~ Views -> Animations ~~~ -->
+		
+		<!-- Views -> Visibility -->
+		<activity android:name=".view.ViewVisibility" ></activity>
+		<!-- ~~~ Views -> Visibility ~~~ -->
 		
 		<!-- Network -> Facebook -->
 		<activity android:name=".network.Facebook" ></activity>

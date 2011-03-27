@@ -58,10 +58,13 @@ public class KSViews extends BaseListActivity {
 		
 		LISTDATA.add(new String[] {"Layouts", "BaseLine, LinearLayout, RelativeLayout, " +
 				"ScrollView, TableLayout, Tabbar",	"fr.playsoft.andsink.view.Layouts"});
+		
 		LISTDATA.add(new String[] {"Layout animation", "Animation when change between views", 
 				"fr.playsoft.andsink.view.ViewAnimations"});
 		
-		LISTDATA.add(new String[] {"Visibility", "Show/hide views", "fr.playsoft.andsink.KSEmpty"});
+		LISTDATA.add(new String[] {"Visibility", "Show/hide views", 
+				"fr.playsoft.andsink.view.ViewVisibility"});
+		
 		LISTDATA.add(new String[] {"ListView", "ListView, customize, Adapter, Expandable Listivew...", 
 				"fr.playsoft.andsink.KSEmpty"});
 		

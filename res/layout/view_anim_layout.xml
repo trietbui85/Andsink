@@ -12,10 +12,19 @@
 		android:id="@+id/view_anim_layout_main">
 	
 	  	<!-- Add controls or views here -->
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:text="Andsink - minh-triet.bui@playsoft.fr"
+	  		android:textColor="@color/blue"
+	  		android:textStyle="bold"
+	  		android:textSize="13sp" />
+	  		
 	  	<ImageView
 	  		android:layout_width="300dip"
 	  		android:layout_height="300dip"
 	  		android:src="@drawable/android_phone"
+	  		android:id="@+id/view_anim_layout_main_img"
 	  		/>
 	  	<TextView
 	  		android:layout_width="fill_parent"

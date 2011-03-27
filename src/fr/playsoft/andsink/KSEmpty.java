@@ -1,5 +1,6 @@
 package fr.playsoft.andsink;
 
+import fr.playsoft.andsink.R;
 
 public class KSEmpty extends BaseActivity {
 
