@@ -67,6 +67,10 @@ public class ViewAnimations extends BaseListActivity {
 				"GridView has items displayed with Fade-in effect in Inverse order (anim by xml)",	
 				"fr.playsoft.andsink.view.anim.GridFadeInverse"});
 		
+		LISTDATA.add(new String[] {"Grid Wave Scale", 
+				"GridView has items displayed with Wave Scale effect (anim by xml)",	
+				"fr.playsoft.andsink.view.anim.GridWaveScale"});
+		
 		LISTDATA.add(new String[] {"List Cascade", 
 				"List has items displayed with Cascade effect (anim by code)", 
 				"fr.playsoft.andsink.view.anim.ListCascade"});
@@ -74,9 +78,6 @@ public class ViewAnimations extends BaseListActivity {
 		LISTDATA.add(new String[] {"List Cascade Inverse", 
 				"List has items displayed with Cascade effect in Inverse order (anim by xml)", 
 				"fr.playsoft.andsink.view.anim.ListCascadeReverse"});
-		
-		LISTDATA.add(new String[] {"Wave scale", "Wave scale", 
-				"fr.playsoft.andsink.KSEmpty"});
 		
 		LISTDATA.add(new String[] {"Nested Animations", "Nested Animations", 
 				"fr.playsoft.andsink.KSEmpty"});

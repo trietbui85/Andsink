@@ -39,6 +39,7 @@
 		<activity android:name=".view.anim.GridFade" ></activity>
 		<activity android:name=".view.anim.GridRandomize" ></activity>
 		<activity android:name=".view.anim.GridFadeInverse" ></activity>
+		<activity android:name=".view.anim.GridWaveScale" ></activity>
 		<activity android:name=".view.anim.ListCascade" ></activity>
 		<activity android:name=".view.anim.ListCascadeReverse" ></activity>
 		
