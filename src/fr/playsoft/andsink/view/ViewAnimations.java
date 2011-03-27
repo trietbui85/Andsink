@@ -58,7 +58,7 @@ public class ViewAnimations extends BaseListActivity {
 		LISTDATA.add(new String[] {"Grid Fade", "Grid Fade",	
 				"fr.playsoft.andsink.view.anim.GridFade"});
 		LISTDATA.add(new String[] {"List Cascade", "List Cascade", 
-				"fr.playsoft.andsink.KSEmpty"});
+				"fr.playsoft.andsink.view.anim.ListCascade"});
 		LISTDATA.add(new String[] {"Reverse order", "Reverse order", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Randomize", "Randomize", 

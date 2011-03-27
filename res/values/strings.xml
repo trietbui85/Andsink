@@ -140,7 +140,7 @@ We know that is love\n
     <string name="scrollview_02_mi_type2">Type 2</string>
     <string name="scrollview_02_mi_type3">Type 3</string>
     <string name="scrollview_02_mi_type4">Type 4</string>
-    <string name="scrollview_04_text">Look into your dark ble eyes.
+    <string name="scrollview_04_text">Look into your dark blue eyes.
 I can fell you searching my heart 
 You’ll find there‘s no need you hide 
 We know that is love 
@@ -164,5 +164,19 @@ We know that is love\n\n</string>
     
     <string name="STR_FACEBOOK_FAILED">Sorry, sharing via Facebook failed.</string>
     <string name="STR_FACEBOOK_SUCCESSFUL">Congrat! Sharing via Facebook successful.</string>
+    
+    <array name="str_array_Tech_corp">
+        <item>Google</item>
+        <item>Apple</item>
+        <item>Microsoft</item>
+        <item>HP</item>
+        <item>IBM</item>
+        <item>Dell</item>
+        <item>RIM</item>
+        <item>Asus</item>
+        <item>Toshiba</item>
+        <item>Ebay</item>
+        <item>Amazon</item>
+    </array>
     
 </resources>
