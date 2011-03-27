@@ -55,14 +55,18 @@ public class ViewAnimations extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Grid Fade", "Grid Fade",	
+		LISTDATA.add(new String[] {"Grid Fade", 
+				"GridView has items displayed with Face-in effect (anim by xml)",	
 				"fr.playsoft.andsink.view.anim.GridFade"});
-		LISTDATA.add(new String[] {"List Cascade", "List Cascade", 
+		LISTDATA.add(new String[] {"Grid Fade Randomize", 
+				"GridView has items displayed with Fade-in effect in Randomize order (anim by xml)",	
+				"fr.playsoft.andsink.view.anim.GridRandomize"});
+		LISTDATA.add(new String[] {"List Cascade", 
+				"List has items displayed with Cascade effect (anim by code)", 
 				"fr.playsoft.andsink.view.anim.ListCascade"});
-		LISTDATA.add(new String[] {"Reverse order", "Reverse order", 
-				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Randomize", "Randomize", 
-				"fr.playsoft.andsink.KSEmpty"});
+		LISTDATA.add(new String[] {"List Cascade Reverse", 
+				"List has items displayed with Cascade reverse effect (anim by xml)", 
+				"fr.playsoft.andsink.view.anim.ListCascadeReverse"});
 		LISTDATA.add(new String[] {"Grid Direction", "Grid Direction", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Wave scale", "Wave scale", 

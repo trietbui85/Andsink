@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+<!-- 	<ScrollView style="@style/RootScrollView"> -->
+<!-- 	<LinearLayout style="@style/RootLinearLayoutVertical" > -->
+	
+	  	<!-- Add controls or views here -->
+	  	<ListView android:id="@+id/anim_03_listview"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layoutAnimation="@anim/anim_bottom2top_slide"
+		    />
+	  	
+<!-- 	</LinearLayout> -->
+<!-- 	</ScrollView> -->
+	
+</LinearLayout>

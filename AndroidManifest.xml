@@ -37,7 +37,9 @@
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>
 		<activity android:name=".view.anim.GridFade" ></activity>
+		<activity android:name=".view.anim.GridRandomize" ></activity>
 		<activity android:name=".view.anim.ListCascade" ></activity>
+		<activity android:name=".view.anim.ListCascadeReverse" ></activity>
 		
 		<!-- Network -> Facebook -->
 		<activity android:name=".network.Facebook" ></activity>
