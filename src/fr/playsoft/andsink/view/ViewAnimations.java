@@ -80,12 +80,20 @@ public class ViewAnimations extends BaseListActivity {
 				"fr.playsoft.andsink.view.anim.ListCascadeReverse"});
 		
 		LISTDATA.add(new String[] {"Layout Anim Left", 
-				"Layout Anim with moving from right to left effect", 
+				"Layout Anim with sliding effect from right to left", 
 				"fr.playsoft.andsink.view.anim.LayoutAnimLeft2Right"});
 		
 		LISTDATA.add(new String[] {"Layout Anim Right", 
-				"Layout Anim with moving from left to right effect", 
+				"Layout Anim with sliding effect from left to right", 
 				"fr.playsoft.andsink.view.anim.LayoutAnimRight2Left"});
+		
+		LISTDATA.add(new String[] {"Layout Anim Fade-in", 
+				"Layout Anim with Fade-in effect", 
+				"fr.playsoft.andsink.view.anim.LayoutAnimFadein"});
+		
+		LISTDATA.add(new String[] {"Layout Anim Fade-out", 
+				"Layout Anim with Fade-out effect", 
+				"fr.playsoft.andsink.view.anim.LayoutAnimFadeout"});
 		
 		LISTDATA.add(new String[] {"Nested Animations", "Nested Animations", 
 				"fr.playsoft.andsink.view.anim.NestedAnim"});

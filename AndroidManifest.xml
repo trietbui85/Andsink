@@ -44,6 +44,8 @@
 		<activity android:name=".view.anim.ListCascadeReverse" ></activity>
 		<activity android:name=".view.anim.LayoutAnimRight2Left" ></activity>
 		<activity android:name=".view.anim.LayoutAnimLeft2Right" ></activity>
+		<activity android:name=".view.anim.LayoutAnimFadein" ></activity>
+		<activity android:name=".view.anim.LayoutAnimFadeout" ></activity>
 		<activity android:name=".view.anim.NestedAnim" ></activity>
 		
 		<!-- Network -> Facebook -->
