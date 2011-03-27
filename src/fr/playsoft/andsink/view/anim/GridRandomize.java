@@ -5,11 +5,11 @@ import fr.playsoft.andsink.BaseActivity;
 import fr.playsoft.andsink.R;
 
 
-public class GridFade extends BaseActivity {
+public class GridRandomize extends BaseActivity {
 
 	@Override
 	public void setupMainLayoutId() {
-		ACTIVITY_LAYOUT = R.layout.view_anim_01_gridfade;
+		ACTIVITY_LAYOUT = R.layout.view_anim_04_gridradomize;
 	}
 
 	@Override
@@ -35,8 +35,8 @@ public class GridFade extends BaseActivity {
 
 	@Override
 	public void setupOthersInMainLayout() {
-		GridView grid = (GridView) findViewById(R.id.anim_01_grid);
-        grid.setAdapter(new GridAnimAdapter(GridFade.this));
+		GridView grid = (GridView) findViewById(R.id.anim_04_grid);
+        grid.setAdapter(new GridAnimAdapter(GridRandomize.this));
 		
 	}
 
