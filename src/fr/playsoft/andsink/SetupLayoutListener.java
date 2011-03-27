@@ -35,6 +35,14 @@ public interface SetupLayoutListener {
 	public void setupOthersInMainLayout();
 	
 	/**
+	 * Call this function to show or hide title bar.<br />
+	 * In default action, title bar is always hidden (return TRUE)
+	 * @return true (default) if you want to hide title bar
+	 * 			false to show title bar
+	 */
+	public boolean setBoolHideTitleBar() ;
+	
+	/**
 	 * Call this method to set right title for custom title bar<br />
 	 * Ex: <br />
 	 * &nbsp;&nbsp;&nbsp;&nbsp;ACTIVITY_NAME = "Views";	//Activity name <br />

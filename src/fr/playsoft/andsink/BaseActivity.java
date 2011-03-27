@@ -57,24 +57,26 @@ import android.widget.TextView;
  */
 public abstract class BaseActivity extends Activity implements SetupLayoutListener {
 	
+	protected boolean mHideTitleBar = true;
+	
 	/**
 	 * This is the main layout of current activity <br />
 	 * If you don't initialize, default value of ACTIVITY_LAYOUT will be ks_layout_empty
 	 */
-	public int ACTIVITY_LAYOUT = R.layout.ks_layout_empty;
+	protected int ACTIVITY_LAYOUT = R.layout.ks_layout_empty;
 	
 	/**
 	 * This is the name of current activity<br />
 	 * This name will be displayed in title bar and in About alert dialog
 	 */
-	public String ACTIVITY_NAME = "Android Kitchen Sink";
+	protected String ACTIVITY_NAME = "Android Kitchen Sink";
 	
 	/**
 	 * This is the about content of current activity<br />
 	 * You should describe which is the main function of this activity<br />
 	 * This about content will be displayed in About alert dialog
 	 */
-	public String ACTIVITY_INFO = "Android Kitchen Sink<br />"
+	protected String ACTIVITY_INFO = "Android Kitchen Sink<br />"
 			+ "Bui Minh Triet - Copyright 2011<br />" 
 			+ "Contact: x3cafe@gmail.com";
 	/**
@@ -83,7 +85,7 @@ public abstract class BaseActivity extends Activity implements SetupLayoutListen
 	 * 		such as: KSViews.java, AndroidManifest.xml, ks_list_template.xml, ks_list_row.xml...<br />
 	 * This about content will be displayed in About alert dialog
 	 */
-	public String ACTIVITY_USING_RES = "<b>Java file:</b><br />" +
+	protected String ACTIVITY_USING_RES = "<b>Java file:</b><br />" +
 			"- KSEmpty.java<br />" +
 	 		"<b>XML</b><br />" +
 	 		"- Main layout: ks_layout_empty<br />" +
@@ -100,18 +102,22 @@ public abstract class BaseActivity extends Activity implements SetupLayoutListen
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		hideRealTitleBar();
+		mHideTitleBar = setBoolHideTitleBar();
+		
+		if(mHideTitleBar)
+			hideRealTitleBar();
 		setupMainLayoutId();
 		
 		setContentView(ACTIVITY_LAYOUT);
 		
 		setupOthersInMainLayout();
 		
-		readTitleBarNameFromIntent();
-		setupTitleBarNameStr();
-		setupTitleBarName();
-		setupOthersInTitleBar();
-		
+		if(mHideTitleBar) {
+			readTitleBarNameFromIntent();
+			setupTitleBarNameStr();
+			setupTitleBarName();
+			setupOthersInTitleBar();
+		}
 		setupAboutContent();
 		
 	}
@@ -124,6 +130,10 @@ public abstract class BaseActivity extends Activity implements SetupLayoutListen
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public boolean setBoolHideTitleBar() {
+		return true;
 	}
 	
 	public void hideRealTitleBar() {
