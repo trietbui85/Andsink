@@ -33,6 +33,7 @@
 		<activity android:name=".view.layout.KSLinearLayout" ></activity>
 		<activity android:name=".view.layout.LLWidthHeight" ></activity>
 		<activity android:name=".view.layout.LLOrientation" ></activity>
+		<activity android:name=".view.layout.LLMarginPadding" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

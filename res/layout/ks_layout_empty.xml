@@ -13,8 +13,7 @@
 	  	<TextView
 	  		android:layout_width="fill_parent"
 	  		android:layout_height="wrap_content"
-	  		android:text="Nothing here yet! This is an empty page. Please setup layout by assign
-	   ACTIVITY_LAYOUT in setupMainLayoutId()"
+	  		android:text="Nothing here yet! This is an empty page. Please setup layout by define ACTIVITY_LAYOUT in setupMainLayoutId()"
 	  		/>
 	  	
 	</LinearLayout>

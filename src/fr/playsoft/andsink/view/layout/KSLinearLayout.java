@@ -65,8 +65,10 @@ public class KSLinearLayout extends BaseListActivity {
 				"Linear Layout in vertical & horizontal orientation",	
 				"fr.playsoft.andsink.view.layout.LLOrientation"});
 		
-		LISTDATA.add(new String[] {"Padding - Margin", "Relative layout", 
-				"fr.playsoft.andsink.KSEmpty"});
+		LISTDATA.add(new String[] {"Padding - Margin", 
+				"Demonstrate margin and padding property of layout", 
+				"fr.playsoft.andsink.view.layout.LLMarginPadding"});
+		
 		LISTDATA.add(new String[] {"Gravity", "Use layout gravity for alignment", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Layout weight", 

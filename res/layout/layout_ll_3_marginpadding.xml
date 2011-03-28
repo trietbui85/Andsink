@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+	<ScrollView style="@style/RootScrollView">
+	<LinearLayout style="@style/RootLinearLayoutVertical" >
+	
+	  	<!-- Margin Top Left -->
+	  	<LinearLayout style="@style/LinerLayoutSectionVertical">
+		  	<TextView style="@style/TextSectionTitle" 
+		  		android:text="1. This is an example of layout with marginTop=10dip, marginLeft=20dip" />
+		  	
+		  	<LinearLayout style="@style/LinerLayoutSectionHorizontal100" >
+		  		
+		  		<LinearLayout
+		  			android:layout_width="fill_parent"
+		  			android:layout_height="fill_parent"
+		  			android:layout_marginLeft="20dip"
+		  			android:layout_marginTop="10dip"
+		  			android:background="@color/blue"
+		  			>
+		  		<TextView style="@style/TextSectionDesc" android:layout_marginRight="15dip"
+			        android:background="@color/red"
+			        android:text="Margin" />
+	  			
+	  			</LinearLayout>
+		  		
+		  	</LinearLayout>
+		</LinearLayout>
+		
+		<!-- Margin Top Right -->
+	  	<LinearLayout style="@style/LinerLayoutSectionVertical">
+		  	<TextView style="@style/TextSectionTitle" 
+		  		android:text="2. This is an example of layout with marginRight=10dip, marginTop=20dip" />
+		  	
+		  	<LinearLayout style="@style/LinerLayoutSectionHorizontal100" >
+		  		
+		  		<LinearLayout
+		  			android:layout_width="fill_parent"
+		  			android:layout_height="fill_parent"
+		  			android:layout_marginRight="10dip"
+		  			android:layout_marginTop="20dip"
+		  			android:background="@color/blue"
+		  			>
+		  		<TextView style="@style/TextSectionDesc" android:layout_marginRight="15dip"
+		  			android:background="@color/red"
+			        android:text="Margin" />
+	  			
+	  			</LinearLayout>
+		  		
+		  	</LinearLayout>
+		</LinearLayout>
+		
+		<!-- Margin Top Right Left Bottom -->
+	  	<LinearLayout style="@style/LinerLayoutSectionVertical">
+		  	<TextView style="@style/TextSectionTitle" 
+		  		android:text="3. This is an example of layout with marginLeft=10dip, marginTop=20dip,
+		  		marginRight=30dip, marginBottom=40dip" />
+		  	
+		  	<LinearLayout style="@style/LinerLayoutSectionHorizontal100" >
+		  		
+		  		<LinearLayout
+		  			android:layout_width="fill_parent"
+		  			android:layout_height="fill_parent"
+		  			android:layout_marginLeft="10dip"
+		  			android:layout_marginTop="20dip"
+		  			android:layout_marginRight="30dip"
+		  			android:layout_marginBottom="40dip"
+		  			android:background="@color/blue"
+		  			>
+		  		<TextView style="@style/TextSectionDesc" android:layout_marginRight="15dip"
+		  			android:background="@color/red"
+			        android:text="Margin" />
+	  			
+	  			</LinearLayout>
+		  		
+		  	</LinearLayout>
+		</LinearLayout>
+		
+		<!-- Padding Top Left -->
+	  	<LinearLayout style="@style/LinerLayoutSectionVertical">
+		  	<TextView style="@style/TextSectionTitle" 
+		  		android:text="4. This is an example of layout with paddingTop=20dip, paddingLeft=50dip" />
+		  	
+		  	<LinearLayout style="@style/LinerLayoutSectionHorizontal100" >
+		  		
+		  		<LinearLayout
+		  			android:layout_width="fill_parent"
+		  			android:layout_height="fill_parent"
+		  			android:paddingLeft="50dip"
+		  			android:paddingTop="20dip"
+		  			android:background="@color/blue"
+		  			>
+		  		<TextView style="@style/TextSectionDesc" android:layout_marginRight="15dip"
+			        android:background="@color/red"
+			        android:text="Padding" />
+	  			
+	  			</LinearLayout>
+		  		
+		  	</LinearLayout>
+		</LinearLayout>
+		
+		<!-- Padding Bottom Left -->
+	  	<LinearLayout style="@style/LinerLayoutSectionVertical">
+		  	<TextView style="@style/TextSectionTitle" 
+		  		android:text="5. This is an example of layout with paddingBottom=7dip, paddingLeft=50dip.
+		  		 Note that paddingBottom not work in this case" />
+		  	
+		  	<LinearLayout style="@style/LinerLayoutSectionHorizontal100" >
+		  		
+		  		<LinearLayout
+		  			android:layout_width="fill_parent"
+		  			android:layout_height="fill_parent"
+		  			android:paddingLeft="50dip"
+		  			android:paddingBottom="7dip"
+		  			android:background="@color/blue"
+		  			>
+		  		<TextView style="@style/TextSectionDesc" android:layout_marginRight="15dip"
+			        android:background="@color/red"
+			        android:text="Padding" />
+	  			
+	  			</LinearLayout>
+		  		
+		  	</LinearLayout>
+		</LinearLayout>
+	
+	</LinearLayout>
+	</ScrollView>
+	
+</LinearLayout>
