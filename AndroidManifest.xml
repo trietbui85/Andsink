@@ -30,10 +30,12 @@
 		<!-- Views -> Layouts -->
 		<activity android:name=".view.Layouts" ></activity>
 		<activity android:name=".view.layout.KSBaseLine" ></activity>
+		
 		<activity android:name=".view.layout.KSLinearLayout" ></activity>
 		<activity android:name=".view.layout.LLWidthHeight" ></activity>
 		<activity android:name=".view.layout.LLOrientation" ></activity>
 		<activity android:name=".view.layout.LLMarginPadding" ></activity>
+		<activity android:name=".view.layout.LLGravity" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

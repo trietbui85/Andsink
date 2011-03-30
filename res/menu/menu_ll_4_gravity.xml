@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mi_ll4_horizontal" android:title="Horizontal" />
+
+    <item android:id="@+id/mi_ll4_vertical" android:title="Vertical" />
+    
+    <item android:id="@+id/mi_ll4_top" android:title="Top" />
+    
+    <item android:id="@+id/mi_ll4_middle" android:title="Middle" />
+    
+    <item android:id="@+id/mi_ll4_bottom" android:title="Bottom" />
+    
+    <item android:id="@+id/mi_ll4_left" android:title="Left" />
+    
+    <item android:id="@+id/mi_ll4_center" android:title="Center" />
+    
+    <item android:id="@+id/mi_ll4_right" android:title="Right" />
+	
+</menu>
