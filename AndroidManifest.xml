@@ -36,6 +36,7 @@
 		<activity android:name=".view.layout.LLOrientation" ></activity>
 		<activity android:name=".view.layout.LLMarginPadding" ></activity>
 		<activity android:name=".view.layout.LLGravity" ></activity>
+		<activity android:name=".view.layout.LLWeight" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

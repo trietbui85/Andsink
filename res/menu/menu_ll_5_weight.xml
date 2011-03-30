@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mi_ll5_text_long" android:title="Make text longer" />
+	<item android:id="@+id/mi_ll5_text_short" android:title="Make text shorter" />
+	
+	
+</menu>

@@ -104,58 +104,13 @@
     <string name="realativelayout_04_desc">This description is very very very very very very very very very long.</string>
     
     <string name="scrollview_01_short"><b>Press Menu Key</b>\nThis is a\nshort scrolview</string>
-    <string name="scrollview_01_long"><b>Press Menu Key</b>\n\n
-Look into your dark ble eyes\n
-I can fell you searching my heart\n
-You’ll find there‘s no need you hide\n
-We know that is love\n
-Now I’m looking through your heart \n
-I can tell you that it is true love \n
-Thank you for the time we have \n
-We know that is love\n
-Don’t tell me that love’s not waiting for us \n
-If we really want to , we can try\n
-But you and I , gotta make it happen\n
-Since we know that’s love \n
-Don’t tell me that love’s not waiting for us\n
-If we really want to , we can try\n
-What you’ve done \n
-We know that is love\n\n
-Every time when I think of you\n
-It’s always thing goes into my mind \n
-I just want to hold you close\n
-We know that is love\n
-Yes I want to share my dreams\n
-And hope that you will be there \n
-Please do love me like before \n
-We know that is love\n
-Now I’m looking through your heart\n
-I can tell you that it is true love \n
-Thank you for the time we have\n
-We know that is love\n
-    </string>
+    
     <string name="scrollview_01_mi_toggle">Toggle Short/Long</string>
     <string name="scrollview_02_title">This is a scrollview</string>
     <string name="scrollview_02_mi_type1">Type 1</string>
     <string name="scrollview_02_mi_type2">Type 2</string>
     <string name="scrollview_02_mi_type3">Type 3</string>
     <string name="scrollview_02_mi_type4">Type 4</string>
-    <string name="scrollview_04_text">Look into your dark blue eyes.
-I can fell you searching my heart 
-You’ll find there‘s no need you hide 
-We know that is love 
-Now I’m looking through your heart 
-I can tell you that it is true love 
-Thank you for the time we have 
-We know that is love 
-Don’t tell me that love’s not waiting for us 
-If we really want to , we can try 
-But you and I , gotta make it happen 
-Since we know that’s love 
-Don’t tell me that love’s not waiting for us 
-If we really want to , we can try
-What you’ve done 
-We know that is love\n\n</string>
 	<string name="scrollview_05_text">This description is very very very very very very very very very long.</string>
     
     <string name="title_05">This is an Action Bar</string>
@@ -164,6 +119,25 @@ We know that is love\n\n</string>
     
     <string name="STR_FACEBOOK_FAILED">Sorry, sharing via Facebook failed.</string>
     <string name="STR_FACEBOOK_SUCCESSFUL">Congrat! Sharing via Facebook successful.</string>
+    
+    <string name="STR_LOREM_IPSUM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nunc aliquet leo sed dolor egestas sit amet pretium urna fermentum. 
+    Sed eget diam eget dui aliquam faucibus et sit amet justo. 
+    Vivamus auctor massa ut nibh tempus id eleifend lorem suscipit. 
+    Sed viverra sagittis dui non aliquet. Nulla facilisi. 
+    Donec blandit convallis arcu eget imperdiet. 
+    Phasellus imperdiet accumsan arcu, nec molestie tortor dignissim id. 
+    Praesent scelerisque odio sit amet lectus commodo placerat. 
+    Etiam faucibus est vitae mi porttitor gravida. 
+    Praesent tincidunt ligula ut arcu accumsan vitae varius elit iaculis.
+
+Sed vel magna neque. Aliquam erat volutpat. 
+Suspendisse potenti. Integer at est quis quam facilisis pellentesque nec suscipit est. 
+Sed id mauris in turpis sollicitudin rhoncus nec non urna. 
+Fusce et arcu velit, nec sagittis risus. 
+Maecenas pretium egestas tortor, eget congue purus consectetur eget. 
+Sed tristique rutrum facilisis. Maecenas venenatis lorem lacus, quis vehicula risus. 
+Etiam quis magna ac risus blandit placerat a id velit. Etiam at dolor diam.</string>
     
     <array name="str_array_Tech_corp">
         <item>Google</item>

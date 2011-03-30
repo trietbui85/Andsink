@@ -44,7 +44,7 @@ public class LLGravity extends BaseActivity {
 	@Override
 	public void setupOthersInMainLayout() {
 		// TODO Auto-generated method stub
-		
+		Toast.makeText(this, getString(R.string.press_menu), Toast.LENGTH_SHORT).show();
 	}
 
 	@Override

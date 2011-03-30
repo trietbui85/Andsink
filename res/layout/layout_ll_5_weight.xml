@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical">
+
+	<!-- custom titlebar -->
+	<include layout="@layout/ks_custom_titlebar" />
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+		<TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textColor="@color/red" android:textSize="14sp"
+			android:text="You can see the textview below will fill in all remaining space. 
+			Press Menu to change text"
+			/>
+		<LinearLayout
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="7dip" android:layout_marginBottom="7dip"
+			android:background="@color/black"
+			android:layout_weight="1" >
+			<ScrollView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+			
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/STR_LOREM_IPSUM" 
+				 android:id="@+id/layout_ll_5_weight_txt"
+				android:textSize="14sp" android:textColor="@color/white"/>
+			</ScrollView>
+		</LinearLayout>
+		<Button android:layout_width="fill_parent" android:layout_height="50dip"
+			android:layout_marginLeft="70dip" android:layout_marginRight="70dip"
+			android:text="I Accept"
+			/>
+	</LinearLayout>
+</LinearLayout>
