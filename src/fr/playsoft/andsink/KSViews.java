@@ -56,9 +56,21 @@ public class KSViews extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Layouts", "BaseLine, LinearLayout, RelativeLayout, " +
-				"ScrollView, TableLayout, Tabbar",	"fr.playsoft.andsink.view.Layouts"});
-		
+//		LISTDATA.add(new String[] {"Layouts", "BaseLine, LinearLayout, RelativeLayout, " +
+//				"ScrollView, TableLayout, Tabbar",	"fr.playsoft.andsink.view.Layouts"});
+		LISTDATA.add(new String[] {"BaseLine", "One of the most simple layout",	
+		"fr.playsoft.andsink.view.layout.KSBaseLine"});
+				LISTDATA.add(new String[] {"LinearLayout", "The most popular and useful layout of Android", 
+		"fr.playsoft.andsink.view.layout.KSLinearLayout"});
+				LISTDATA.add(new String[] {"RelativeLayout", "Relative layout", 
+		"fr.playsoft.andsink.KSEmpty"});
+				LISTDATA.add(new String[] {"ScrollView", "Scroll view", 
+		"fr.playsoft.andsink.KSEmpty"});
+				LISTDATA.add(new String[] {"TableLayout", "We don't often use this layout", 
+		"fr.playsoft.andsink.KSEmpty"});
+				LISTDATA.add(new String[] {"Tab Layout", "Useful, but hard to customize", 
+		"fr.playsoft.andsink.KSEmpty"});
+
 		LISTDATA.add(new String[] {"Layout animation", "Animation when change between views", 
 				"fr.playsoft.andsink.view.ViewAnimations"});
 		
@@ -69,8 +81,6 @@ public class KSViews extends BaseListActivity {
 				"fr.playsoft.andsink.KSEmpty"});
 		
 		LISTDATA.add(new String[] {"Gallery & GridView", "Use Gallery and Grid to show image", 
-				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"ImageView & ImageSwitcher", "Learn about Image container", 
 				"fr.playsoft.andsink.KSEmpty"});
 		
 		LISTDATA.add(new String[] {"Theme", "How to change theme of your app", 

@@ -61,6 +61,10 @@ public class KSControls extends BaseListActivity {
 		LISTDATA.add(new String[] {"AutoComplete", "How auto-complete works in Android",	
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Button", "Button & ImageButton control", "fr.playsoft.andsink.KSEmpty"});
+		
+		LISTDATA.add(new String[] {"ImageView & ImageSwitcher", "Learn about Image container", 
+		"fr.playsoft.andsink.KSEmpty"});
+
 		LISTDATA.add(new String[] {"Chronometer", "What is it??? I don't know", 
 				"fr.playsoft.andsink.KSEmpty"});
 		LISTDATA.add(new String[] {"Date Time Widget", "Date Time control in Android", 
