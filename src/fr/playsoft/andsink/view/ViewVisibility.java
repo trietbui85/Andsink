@@ -4,7 +4,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 import fr.playsoft.andsink.BaseActivity;
 import fr.playsoft.andsink.R;
@@ -14,7 +14,7 @@ public class ViewVisibility extends BaseActivity {
 
 	@Override
 	public void setupMainLayoutId() {
-		ACTIVITY_LAYOUT = R.layout.view_anim_layout;		
+		ACTIVITY_LAYOUT = R.layout.view_layout_visibility;		
 	}
 
 	@Override
@@ -51,7 +51,7 @@ public class ViewVisibility extends BaseActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		
-		ImageView img = (ImageView) findViewById(R.id.view_anim_layout_main_img);
+		LinearLayout img = (LinearLayout) findViewById(R.id.view_anim_layout_main_img);
 		
 		switch (item.getItemId()) {
 	    case R.id.mi_vis_visible:
