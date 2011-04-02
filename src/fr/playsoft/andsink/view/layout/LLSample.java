@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseListActivity;
  * @author Admin
  *
  */
-public class KSLinearLayout extends BaseListActivity {
+public class LLSample extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -58,34 +58,24 @@ public class KSLinearLayout extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Layout width and height", 
-				"Set width and height of linear layout", 
-				"fr.playsoft.andsink.view.layout.LLWidthHeight"});
-		LISTDATA.add(new String[] {"Vertical - Horizontal", 
-				"Linear Layout in vertical & horizontal orientation",	
-				"fr.playsoft.andsink.view.layout.LLOrientation"});
-		
-		LISTDATA.add(new String[] {"Padding - Margin", 
-				"Demonstrate margin and padding property of layout", 
-				"fr.playsoft.andsink.view.layout.LLMarginPadding"});
-		
-		LISTDATA.add(new String[] {"Gravity", "Use layout gravity for alignment", 
-				"fr.playsoft.andsink.view.layout.LLGravity"});
-		
-		LISTDATA.add(new String[] {"Layout weight", 
-				"Use Layout weight to make layout expand to fill all remaining space in parent view", 
-				"fr.playsoft.andsink.view.layout.LLWeight"});
-		
-		LISTDATA.add(new String[] {"Layout Sample", 
-				"Some sample Linear Layout", 
-				"fr.playsoft.andsink.view.layout.LLSample"});
-		
+		LISTDATA.add(new String[] {"List row 1", 
+				"List row with 1 thumbnail, 1 textview & 1 arrow", 
+				"fr.playsoft.andsink.view.layout.LLSample1"});
+		LISTDATA.add(new String[] {"List row 2", 
+				"List row with 1 thumbnail, 2 textview & 1 arrow", 
+				"fr.playsoft.andsink.view.layout.LLSample2"});
+		LISTDATA.add(new String[] {"List row 3", 
+				"List row with 1 thumbnail, 2 textview", 
+				"fr.playsoft.andsink.view.layout.LLSample3"});
+		LISTDATA.add(new String[] {"List row 4", 
+				"Sample Linear Layout with 1 thumbnail, 2 textview", 
+				"fr.playsoft.andsink.view.layout.LLSample4"});
 		
 	}
 
 	@Override
 	public void setupTitleBarNameStr() {
-		 ACTIVITY_NAME = "Linear Layout"; //Activity name 
+		 ACTIVITY_NAME = "Linear Layout Sample"; //Activity name 
 		
 	}
 

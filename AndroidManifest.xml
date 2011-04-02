@@ -37,7 +37,11 @@
 		<activity android:name=".view.layout.LLMarginPadding" ></activity>
 		<activity android:name=".view.layout.LLGravity" ></activity>
 		<activity android:name=".view.layout.LLWeight" ></activity>
+		<activity android:name=".view.layout.LLSample" ></activity>
 		<activity android:name=".view.layout.LLSample1" ></activity>
+		<activity android:name=".view.layout.LLSample2" ></activity>
+		<activity android:name=".view.layout.LLSample3" ></activity>
+		<activity android:name=".view.layout.LLSample4" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

@@ -46,7 +46,7 @@ public interface SetupLayoutListener {
 	 * Call this method to set right title for custom title bar<br />
 	 * Ex: <br />
 	 * &nbsp;&nbsp;&nbsp;&nbsp;ACTIVITY_NAME = "Views";	//Activity name <br />
-	 * If you enter into this Activity from a BaseListAcitivy, you already have this activity's name set.<br />
+	 * If you enter into this Activity from a BaseListActivity, you already have this activity's name set.<br />
 	 * Read function {@link #readTitleBarNameFromIntent()} for more detail.
 	 */
 	public void setupTitleBarNameStr();
