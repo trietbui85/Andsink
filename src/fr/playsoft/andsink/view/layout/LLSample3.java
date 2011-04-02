@@ -8,7 +8,7 @@ public class LLSample3 extends BaseActivity {
 
 	@Override
 	public void setupMainLayoutId() {
-		ACTIVITY_LAYOUT = R.layout.layout_ll_8;
+		ACTIVITY_LAYOUT = R.layout.layout_ll_sample_3;
 	}
 
 	@Override
