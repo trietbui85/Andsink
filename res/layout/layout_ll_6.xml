@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+  	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+  	
+<!-- 	<ScrollView style="@style/RootScrollView"> -->
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		 >
+	
+	  	<TextView style="@style/TextSectionTitle" 
+	  		android:text="This is an example of Linear Layout with complex structure.\n
+	  		This layout includes a thumbnail, a textview and an arrow\n
+	  		- All image and textview must be aligned center_vertical\n
+	  		- Text must be stretched to full layout with" />
+	  	
+	  	<!-- Here is the main layout -->
+	  	<LinearLayout
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="70dip"
+	  		android:background="#EFEFEF"
+	  		>
+	  		<ImageView
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:src="@drawable/icon"
+		  		android:layout_gravity="center_vertical"
+		  		android:layout_marginLeft="5dip"
+	  			/>
+	  		<TextView
+	  			android:layout_width="fill_parent"
+	  			android:layout_height="wrap_content"
+	  			android:layout_weight="1"
+	  			android:text="This is LinearLayout complex layout with 2 image and 1 text"
+	  			android:textSize="14sp"
+	  			android:textStyle="bold"
+	  			android:layout_gravity="center_vertical"
+	  			android:layout_marginLeft="5dip"
+	  			/>
+	  		<ImageView
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:src="@drawable/ic_arrow_right"
+	  			android:layout_gravity="center_vertical"
+	  			android:layout_marginLeft="5dip"
+	  			android:layout_marginRight="2dip"
+	  			/>
+  		</LinearLayout>
+	  	
+	</LinearLayout>
+<!-- 	</ScrollView> -->
+	
+</LinearLayout>

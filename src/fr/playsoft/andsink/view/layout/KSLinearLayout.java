@@ -76,9 +76,9 @@ public class KSLinearLayout extends BaseListActivity {
 				"Use Layout weight to make layout expand to fill all remaining space in parent view", 
 				"fr.playsoft.andsink.view.layout.LLWeight"});
 		
-		LISTDATA.add(new String[] {"Background", 
-				"Customize layout background with image or drawable resources", 
-				"fr.playsoft.andsink.KSEmpty"});
+		LISTDATA.add(new String[] {"Layout Sample 1", 
+				"Sample Linear Layout with 1 thumbnail, 1 textview & 1 arrow", 
+				"fr.playsoft.andsink.view.layout.LLSample1"});
 		
 	}
 

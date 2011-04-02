@@ -74,23 +74,22 @@ public class KSViews extends BaseListActivity {
 		LISTDATA.add(new String[] {"Layout animation", "Animation when change between views", 
 				"fr.playsoft.andsink.view.ViewAnimations"});
 		
+		LISTDATA.add(new String[] {"Background", 
+				"Customize layout background with image or drawable resources", 
+				"fr.playsoft.andsink.KSEmpty"});
+		
 		LISTDATA.add(new String[] {"Visibility", "Show/hide views", 
 				"fr.playsoft.andsink.view.ViewVisibility"});
 		
 		LISTDATA.add(new String[] {"ListView", "ListView, customize, Adapter, Expandable Listivew...", 
 				"fr.playsoft.andsink.KSEmpty"});
 		
-		LISTDATA.add(new String[] {"Gallery & GridView", "Use Gallery and Grid to show image", 
+		LISTDATA.add(new String[] {"Gallery", "Use Gallery to show image", 
 				"fr.playsoft.andsink.KSEmpty"});
 		
-		LISTDATA.add(new String[] {"Theme", "How to change theme of your app", 
+		LISTDATA.add(new String[] {"GridView", "Use Grid to show image", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Titlebar", "Learn how to customize Android title bar with real and fake", 
-				"fr.playsoft.andsink.KSEmpty"});
-		
-		LISTDATA.add(new String[] {"Activity", "Android Activity", 
-				"fr.playsoft.andsink.KSEmpty"});
-		
+
 	}
 
 	@Override
