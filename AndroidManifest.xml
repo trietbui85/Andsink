@@ -35,13 +35,32 @@
 		<activity android:name=".view.layout.LLWidthHeight" ></activity>
 		<activity android:name=".view.layout.LLOrientation" ></activity>
 		<activity android:name=".view.layout.LLMarginPadding" ></activity>
+		
 		<activity android:name=".view.layout.LLGravity" ></activity>
+		<activity android:name=".view.layout.LLGravity1" ></activity>
+		<activity android:name=".view.layout.LLGravity11" ></activity>
+		<activity android:name=".view.layout.LLGravity12" ></activity>
+		<activity android:name=".view.layout.LLGravity13" ></activity>
+		<activity android:name=".view.layout.LLGravity21" ></activity>
+		<activity android:name=".view.layout.LLGravity22" ></activity>
+		<activity android:name=".view.layout.LLGravity23" ></activity>
+		<activity android:name=".view.layout.LLGravity31" ></activity>
+		<activity android:name=".view.layout.LLGravity32" ></activity>
+		<activity android:name=".view.layout.LLGravity33" ></activity>
+		
+		<activity android:name=".view.layout.LLLayoutGravity" ></activity>
 		<activity android:name=".view.layout.LLWeight" ></activity>
 		<activity android:name=".view.layout.LLSample" ></activity>
 		<activity android:name=".view.layout.LLSample1" ></activity>
 		<activity android:name=".view.layout.LLSample2" ></activity>
 		<activity android:name=".view.layout.LLSample3" ></activity>
 		<activity android:name=".view.layout.LLSample4" ></activity>
+		<activity android:name=".view.layout.LLSample5" ></activity>
+		<activity android:name=".view.layout.LLSample6" ></activity>
+		<activity android:name=".view.layout.LLSample7" ></activity>
+		<activity android:name=".view.layout.LLSample8" ></activity>
+		<activity android:name=".view.layout.LLSample9" ></activity>
+		<activity android:name=".view.layout.LLSample10" ></activity>
 		
 		<!-- Views -> Animations -->
 		<activity android:name=".view.ViewAnimations" ></activity>

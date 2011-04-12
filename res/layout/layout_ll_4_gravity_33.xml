@@ -5,7 +5,6 @@
 
 	<!-- custom titlebar -->
 	<include layout="@layout/ks_custom_titlebar" />
-	
 	<CheckBox
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
@@ -14,22 +13,10 @@
 		android:onClick="onCheckboxClick"
 		android:layout_gravity="center_vertical"
 		/>
-	<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" 
-		android:orientation="horizontal" android:id="@+id/layout_ll_4_group1">
-        <RadioButton android:checked="true" android:text="Left" android:id="@+id/layout_ll_4_option1" />
-       	<RadioButton android:checked="false" android:text="Center" android:id="@+id/layout_ll_4_option2" />
-        <RadioButton android:checked="false" android:text="Right" android:id="@+id/layout_ll_4_option3" />
-   	</RadioGroup>
-   	
-   	<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" 
-		android:orientation="horizontal" android:id="@+id/layout_ll_4_group2">
-        <RadioButton android:checked="true" android:text="Top" android:id="@+id/layout_ll_4_option4" />
-       	<RadioButton android:checked="false" android:text="Middle" android:id="@+id/layout_ll_4_option5" />
-        <RadioButton android:checked="false" android:text="Bottom" android:id="@+id/layout_ll_4_option6" />
-   	</RadioGroup>
-	
-	<LinearLayout android:id="@+id/layout_ll_4_gravity_main"
 		
+	<LinearLayout android:id="@+id/layout_ll_4_gravity_main"
+		android:gravity="bottom|right"
+		android:layout_marginTop="40dip"
 		android:orientation="horizontal" android:background="@color/blue"
 		android:layout_width="250dip" android:layout_height="200dip" >
 

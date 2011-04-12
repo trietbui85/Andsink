@@ -69,8 +69,13 @@ public class KSLinearLayout extends BaseListActivity {
 				"Demonstrate margin and padding property of layout", 
 				"fr.playsoft.andsink.view.layout.LLMarginPadding"});
 		
-		LISTDATA.add(new String[] {"Gravity", "Use layout gravity for alignment", 
+		LISTDATA.add(new String[] {"Gravity", 
+				"Use layout gravity for alignment children with this layout", 
 				"fr.playsoft.andsink.view.layout.LLGravity"});
+		
+		LISTDATA.add(new String[] {"Layout Gravity", 
+				"Use layout layout_gravity for alignment this layout with its parent", 
+				"fr.playsoft.andsink.view.layout.LLLayoutGravity"});
 		
 		LISTDATA.add(new String[] {"Layout weight", 
 				"Use Layout weight to make layout expand to fill all remaining space in parent view", 

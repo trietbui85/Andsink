@@ -71,6 +71,10 @@ public class LLSample extends BaseListActivity {
 				"Sample Linear Layout with 1 thumbnail, 2 textview", 
 				"fr.playsoft.andsink.view.layout.LLSample4"});
 		
+		LISTDATA.add(new String[] {"Screen layout 1", 
+				"Sample Linear Layout with 1 text, 1 image and 2 button", 
+				"fr.playsoft.andsink.view.layout.LLSample5"});
+		
 	}
 
 	@Override
