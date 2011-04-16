@@ -81,7 +81,7 @@ public class ImageViewScale extends BaseListActivity {
 		LISTDATA.add(new String[] {"ScaleType FitXY", "How Image scaleType FitXY works",	
 				"fr.playsoft.andsink.controls.image.ImageViewScaleFitXY"});
 
-		LISTDATA.add(new String[] {"ScaleType Matrix", "How Image scaleType Matrix works",	
+		LISTDATA.add(new String[] {"ScaleType Matrix *", "How Image scaleType Matrix works",	
 				"fr.playsoft.andsink.controls.image.ImageViewScaleMatrix"});
 		
 	}
