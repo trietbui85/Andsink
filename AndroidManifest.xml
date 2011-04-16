@@ -93,6 +93,21 @@
 		<activity android:name=".view.ViewVisibility" ></activity>
 		<!-- ~~~ Views -> Visibility ~~~ -->
 		
+		<!-- Controls -->
+		<!-- Controls -> ImageView -->
+		<activity android:name=".controls.image.ImageView" ></activity>
+		<activity android:name=".controls.image.ImageViewScale" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleFitXY" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleFitStart" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleFitEnd" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleFitCenter" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleCenterInside" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleCenterCrop" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleCenter" ></activity>
+		<activity android:name=".controls.image.ImageViewScaleMatrix" ></activity>
+		
+		<!-- ~~~ Controls ~~~ -->
+		
 		<!-- Network -> Facebook -->
 		<activity android:name=".network.Facebook" ></activity>
 		<activity android:name=".network.facebook.FacebookSharing" ></activity>

@@ -22,8 +22,8 @@
   			android:textColor="@android:color/black"
   			/>
 	  	<ImageView
-  			android:layout_width="300dip"
-  			android:layout_height="300dip"
+  			android:layout_width="250dip"
+  			android:layout_height="250dip"
   			android:src="@drawable/android_phone"		  		
 	  		android:layout_gravity="center_horizontal"
   			/>
@@ -39,12 +39,14 @@
 	  			android:layout_height="50dip"
 	  			android:text="Previous"
 	  			android:layout_weight="1"
+	  			android:onClick="onBtnPrevClick"
 	  			/>
 	  		<Button
 	  			android:layout_width="fill_parent"
 	  			android:layout_height="50dip"
 	  			android:text="Next"
 	  			android:layout_weight="1"
+	  			android:onClick="onBtnNextClick"
 	  			/>
   		</LinearLayout>
 	  	

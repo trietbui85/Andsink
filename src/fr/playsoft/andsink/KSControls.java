@@ -58,32 +58,45 @@ public class KSControls extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"AutoComplete", "How auto-complete works in Android",	
+		LISTDATA.add(new String[] {"AutoComplete *", "How auto-complete works in Android",	
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Button", "Button & ImageButton control", "fr.playsoft.andsink.KSEmpty"});
 		
-		LISTDATA.add(new String[] {"ImageView & ImageSwitcher", "Learn about Image container", 
-		"fr.playsoft.andsink.KSEmpty"});
+		LISTDATA.add(new String[] {"Button *", "Button & ImageButton control", "fr.playsoft.andsink.KSEmpty"});
+		
+		LISTDATA.add(new String[] {"ImageView  ^", "Learn about Image container", 
+				"fr.playsoft.andsink.controls.image.ImageView"});
+		
+		LISTDATA.add(new String[] {"ImageSwitcher *", "Learn about Image container", 
+				"fr.playsoft.andsink.KSEmpty"});
 
-		LISTDATA.add(new String[] {"Chronometer", "What is it??? I don't know", 
+		LISTDATA.add(new String[] {"Chronometer *", "What is it??? I don't know", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Date Time Widget", "Date Time control in Android", 
+		
+		LISTDATA.add(new String[] {"Date Time Widget *", "Date Time control in Android", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Gauss Control", "Progress bar, Seek bar, Rating bar", 
+		
+		LISTDATA.add(new String[] {"Gauss Control *", "Progress bar, Seek bar, Rating bar", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Group control", "Radio Group, Spinner", 
+		
+		LISTDATA.add(new String[] {"Group control *", "Radio Group, Spinner", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Text View", "Text view, Text Switcher", 
+		
+		LISTDATA.add(new String[] {"Text View *", "Text view, Text Switcher", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Linkify", "Linkify", 
+		
+		LISTDATA.add(new String[] {"Linkify *", "Linkify", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"LogTextBox", "LogTextBox", 
+		
+		LISTDATA.add(new String[] {"LogTextBox *", "LogTextBox", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Marquee", "Marquee", 
+		
+		LISTDATA.add(new String[] {"Marquee *", "Marquee", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Dialog", "Dialog box and Customize Dialog", 
+		
+		LISTDATA.add(new String[] {"Dialog *", "Dialog box and Customize Dialog", 
 				"fr.playsoft.andsink.KSEmpty"});
-		LISTDATA.add(new String[] {"Menu & Key", "Android system menu & key",
+		
+		LISTDATA.add(new String[] {"Menu & Key *", "Android system menu & key",
 				"fr.playsoft.andsink.KSEmpty"});
 		
 	}

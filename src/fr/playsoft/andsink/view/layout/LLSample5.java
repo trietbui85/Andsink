@@ -1,5 +1,7 @@
 package fr.playsoft.andsink.view.layout;
 
+import android.view.View;
+import android.widget.Toast;
 import fr.playsoft.andsink.BaseActivity;
 import fr.playsoft.andsink.R;
 
@@ -51,7 +53,13 @@ public class LLSample5 extends BaseActivity {
 		
 	}
 	
+	/** When click Button NEXT */
+	public void onBtnNextClick(View v) {
+		Toast.makeText(this, "You click NEXT", Toast.LENGTH_SHORT).show();
+	}
 	
-	
-	
+	/** When click Button PREVIOUS */
+	public void onBtnPrevClick(View v) {
+		Toast.makeText(this, "You click PREVIOUS", Toast.LENGTH_SHORT).show();
+	}
 }
