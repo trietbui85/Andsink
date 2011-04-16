@@ -23,6 +23,10 @@
     <string name="txt_misc">The brown fox jumped over the lazy dog.</string>
     <string name="btn_clearcache">Clear Cache</string>
     
+    <string name="str_not_yet_implemented">Not yet implemented</string>
+    <string name="str_implement_desc_1">Row with <b>*</b> at the end of description means this feature is not implemented yet.</string>
+    <string name="str_implement_desc_2">Row with <b>^</b> at the end of description means this feature is being implemented.</string>
+    
     <!-- Layout string -->
     <string name="linearlayout_01_mi_vertical">Vertical</string>
     <string name="linearlayout_01_mi_horizontal">Horizontal</string>

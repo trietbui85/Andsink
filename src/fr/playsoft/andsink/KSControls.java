@@ -90,7 +90,7 @@ public class KSControls extends BaseListActivity {
 
 	@Override
 	public void setupTitleBarNameStr() {
-		 ACTIVITY_NAME = "Controls"; //Activity name 
+		 ACTIVITY_NAME = getString(R.string.tab2_name); //Activity name 
 		
 	}
 

@@ -58,7 +58,7 @@ public class KSLinearLayout extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Layout width and height", 
+		LISTDATA.add(new String[] {"Layout width & height", 
 				"Set width and height of linear layout", 
 				"fr.playsoft.andsink.view.layout.LLWidthHeight"});
 		LISTDATA.add(new String[] {"Vertical - Horizontal", 
@@ -73,7 +73,7 @@ public class KSLinearLayout extends BaseListActivity {
 				"Use layout gravity for alignment children with this layout", 
 				"fr.playsoft.andsink.view.layout.LLGravity"});
 		
-		LISTDATA.add(new String[] {"Layout Gravity", 
+		LISTDATA.add(new String[] {"Layout Gravity ^", 
 				"Use layout layout_gravity for alignment this layout with its parent", 
 				"fr.playsoft.andsink.view.layout.LLLayoutGravity"});
 		
@@ -81,7 +81,7 @@ public class KSLinearLayout extends BaseListActivity {
 				"Use Layout weight to make layout expand to fill all remaining space in parent view", 
 				"fr.playsoft.andsink.view.layout.LLWeight"});
 		
-		LISTDATA.add(new String[] {"Layout Sample", 
+		LISTDATA.add(new String[] {"Linear Layout Sample ^", 
 				"Some sample Linear Layout", 
 				"fr.playsoft.andsink.view.layout.LLSample"});
 		

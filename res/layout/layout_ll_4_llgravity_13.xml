@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical">
+
+	<!-- custom titlebar -->
+	<include layout="@layout/ks_custom_titlebar" />
+	<CheckBox
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Set orientation to VERTICAL"
+		android:id="@+id/chkOrientation"
+		android:onClick="onCheckboxClick"
+		android:layout_gravity="center_horizontal"
+		/>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" 
+		android:orientation="vertical" android:background="@color/gray">
+	<LinearLayout android:id="@+id/layout_ll_4_gravity_main"
+		android:layout_gravity="top|right"
+		android:orientation="vertical" android:background="@color/blue"
+		android:layout_width="250dip" android:layout_height="200dip" >
+
+		<TextView android:background="@color/red"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Red Red" android:textSize="16sp" android:textStyle="bold"/>
+
+		<ImageView android:src="@drawable/ic_title_home_default"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+
+		<TextView android:textColor="@color/yellow"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Yellow" android:textSize="14sp" android:textStyle="bold"/>
+
+	</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

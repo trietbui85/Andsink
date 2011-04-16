@@ -11,7 +11,6 @@
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:orientation="vertical"
-		android:gravity="center"
 		>
 		
 	  	<TextView
@@ -26,7 +25,7 @@
   			android:layout_width="300dip"
   			android:layout_height="300dip"
   			android:src="@drawable/android_phone"		  		
-	  		android:layout_gravity="center_vertical"
+	  		android:layout_gravity="center_horizontal"
   			/>
 	  	
 	  	<LinearLayout

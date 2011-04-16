@@ -16,7 +16,21 @@
 	  		android:textSize="18sp"
 	  		android:textStyle="bold"
 	  		android:textColor="@color/red"
-	  		android:text="Not yet implemented!"
+	  		android:text="@string/str_not_yet_implemented"
+	  		/>
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="12sp"
+	  		android:textStyle="bold"
+	  		android:text="@string/str_implement_desc_1"
+	  		/>
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="12sp"
+	  		android:textStyle="bold"
+	  		android:text="@string/str_implement_desc_2"
 	  		/>
 	  	<TextView
 	  		android:layout_width="fill_parent"

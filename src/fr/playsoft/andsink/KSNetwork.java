@@ -64,7 +64,7 @@ public class KSNetwork extends BaseListActivity {
 
 	@Override
 	public void setupTitleBarNameStr() {
-		 ACTIVITY_NAME = "Network"; //Activity name 
+		 ACTIVITY_NAME = getString(R.string.tab5_name); //Activity name 
 		
 	}
 

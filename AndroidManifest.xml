@@ -49,6 +49,18 @@
 		<activity android:name=".view.layout.LLGravity33" ></activity>
 		
 		<activity android:name=".view.layout.LLLayoutGravity" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity1" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity11" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity12" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity13" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity21" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity22" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity23" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity31" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity32" ></activity>
+		<activity android:name=".view.layout.LLLayoutGravity33" ></activity>
+		
+		<activity android:name=".view.layout.LLLayoutGravity" ></activity>
 		<activity android:name=".view.layout.LLWeight" ></activity>
 		<activity android:name=".view.layout.LLSample" ></activity>
 		<activity android:name=".view.layout.LLSample1" ></activity>
