@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseListActivity;
  * @author Admin
  *
  */
-public class ListCustomizeUI extends BaseListActivity {
+public class ListArrayAdapter extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -57,14 +57,22 @@ public class ListCustomizeUI extends BaseListActivity {
 	 */
 	@Override
 	public void setupListData() {
-		LISTDATA.add(new String[] {"Default listview", 
-				"Default look-and-feel of ListView of default", 
-				"fr.playsoft.andsink.view.listview.ListUIDefault"});
 		
-		LISTDATA.add(new String[] {"Custom listview", 
-				"Customize look-and-feel of ListView instead of default", 
-				"fr.playsoft.andsink.view.listview.ListUIBeauty"});
-
+		LISTDATA.add(new String[] {"Default", 
+				"Default ArrayAdapter", 
+				"fr.playsoft.andsink.view.listview.ListArrayAdapter1"});
+		
+		LISTDATA.add(new String[] {"1 textview", 
+				"ArrayAdapter with only textview", 
+				"fr.playsoft.andsink.view.listview.ListArrayAdapter2"});
+		
+		LISTDATA.add(new String[] {"2 textviews", 
+				"ArrayAdapter with 2 textviews", 
+				"fr.playsoft.andsink.view.listview.ListArrayAdapter3"});
+		
+		LISTDATA.add(new String[] {"2 textview + 1 image", 
+				"ArrayAdapter with 2 textviews and 1 image", 
+				"fr.playsoft.andsink.view.listview.ListArrayAdapter4"});
 		
 	}
 

@@ -10,11 +10,11 @@ import fr.playsoft.andsink.BaseActivity;
 import fr.playsoft.andsink.R;
 import fr.playsoft.andsink.resource.StringData;
 
-public class ListUIDefault extends BaseActivity {
+public class ListArrayAdapter4 extends BaseActivity {
 
 	@Override
 	public void setupMainLayoutId() {
-		ACTIVITY_LAYOUT = R.layout.lv_layout_default;
+		ACTIVITY_LAYOUT = R.layout.ks_list_template;
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ListUIDefault extends BaseActivity {
 		final String[] content = StringData.ARR_STR_USA_STATES_NAME;
 		
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, 
-				android.R.layout.simple_list_item_1, content);
+				R.layout.lv_custom_row_1, content);
 		listview.setAdapter(adapter);
 		
 		listview.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-				Toast.makeText(ListUIDefault.this, "@pos=" + position + " @value=" + content[position], 
+				Toast.makeText(ListArrayAdapter4.this, "@pos=" + position + " @value=" + content[position], 
 						Toast.LENGTH_SHORT).show();
 			}
 		});

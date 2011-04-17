@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseActivity;
 import fr.playsoft.andsink.R;
 import fr.playsoft.andsink.resource.StringData;
 
-public class ListUIDefault extends BaseActivity {
+public class ListArrayAdapter1 extends BaseActivity {
 
 	@Override
 	public void setupMainLayoutId() {
@@ -38,7 +38,7 @@ public class ListUIDefault extends BaseActivity {
 
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-				Toast.makeText(ListUIDefault.this, "@pos=" + position + " @value=" + content[position], 
+				Toast.makeText(ListArrayAdapter1.this, "@pos=" + position + " @value=" + content[position], 
 						Toast.LENGTH_SHORT).show();
 			}
 		});

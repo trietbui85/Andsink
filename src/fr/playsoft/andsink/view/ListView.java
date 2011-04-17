@@ -57,11 +57,11 @@ public class ListView extends BaseListActivity {
 	 */
 	@Override
 	public void setupListData() {
-		LISTDATA.add(new String[] {"Customize UI *", 
+		LISTDATA.add(new String[] {"Customize UI", 
 				"Customize look-and-feel of ListView instead of default", 
 				"fr.playsoft.andsink.view.listview.ListCustomizeUI"});
 
-		LISTDATA.add(new String[] {"Adapter *", "Custom ListView data with adapter", 
+		LISTDATA.add(new String[] {"Adapter ^", "Custom ListView data with adapter", 
 				"fr.playsoft.andsink.view.listview.ListAdapter"});
 		
 		LISTDATA.add(new String[] {"Loading Effect *", "Atractive effect when loading listview", 
@@ -69,6 +69,12 @@ public class ListView extends BaseListActivity {
 		
 		LISTDATA.add(new String[] {"Separators *", "Using separator to pagify each section", 
 				"fr.playsoft.andsink.view.listview.ListSeparator"});
+		
+		LISTDATA.add(new String[] {"Header/Footer *", "Add header and footer to listview", 
+				"fr.playsoft.andsink.view.listview.ListHeaderFooter"});
+		
+		LISTDATA.add(new String[] {"Event *", "Explore all listview event", 
+				"fr.playsoft.andsink.view.listview.ListEvent"});
 		
 		LISTDATA.add(new String[] {"Choice ListView *", "ListView with single/multiple choce", 
 				"fr.playsoft.andsink.view.listview.ListChoiceMode"});

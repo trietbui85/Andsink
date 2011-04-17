@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+android.R.layout.simple_list_item_1 
+http://www.netmite.com/android/mydroid/frameworks/base/core/res/res/layout/simple_list_item_1.xml
+-->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/ks_list_row_selector"
+	android:id="@android:id/text1" android:textColor="@color/blue"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:gravity="center_vertical" android:paddingLeft="6dip"
+	android:minHeight="?android:attr/listPreferredItemHeight" />

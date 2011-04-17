@@ -4,13 +4,14 @@
 package fr.playsoft.andsink.view.listview;
 
 import fr.playsoft.andsink.BaseListActivity;
+import fr.playsoft.andsink.R;
 
 
 /**
  * @author Admin
  *
  */
-public class ListCustomizeUI extends BaseListActivity {
+public class ListEvent extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -57,13 +58,9 @@ public class ListCustomizeUI extends BaseListActivity {
 	 */
 	@Override
 	public void setupListData() {
-		LISTDATA.add(new String[] {"Default listview", 
-				"Default look-and-feel of ListView of default", 
-				"fr.playsoft.andsink.view.listview.ListUIDefault"});
-		
-		LISTDATA.add(new String[] {"Custom listview", 
+		LISTDATA.add(new String[] {"Customize UI *", 
 				"Customize look-and-feel of ListView instead of default", 
-				"fr.playsoft.andsink.view.listview.ListUIBeauty"});
+				"fr.playsoft.andsink.view.listview.ListCustomizeUI"});
 
 		
 	}

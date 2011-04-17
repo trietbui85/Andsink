@@ -160,4 +160,61 @@ Etiam quis magna ac risus blandit placerat a id velit. Etiam at dolor diam.</str
         <item>Facebook</item>
     </array>
     
+	<!--     http://money.cnn.com/magazines/fortune/global500/2010/full_list/ -->
+    <array name="str_array_Tech_fortune100_year2010_name">
+        <item>Wal-Mart Stores</item>
+        <item>Royal Dutch Shell</item>
+        <item>Exxon Mobil</item>
+        <item>BP</item>
+        <item>Toyota Motor</item>
+        <item>Japan Post Holdings</item>
+        <item>Sinopec</item>
+        <item>State Grid</item>
+        <item>AXA</item>
+        <item>China National Petroleum</item>
+        <item>Chevron</item>
+        <item>ING Group</item>
+        <item>General Electric</item>
+        <item>Total</item>
+        <item>Bank of America Corp.</item>
+        <item>Volkswagen</item>
+        <item>ConocoPhillips</item>
+        <item>BNP Paribas</item>
+        <item>Assicurazioni Generali</item>
+        <item>Allianz</item>
+        <item>AT&amp;T</item>
+        <item>Carrefour</item>
+        <item>Ford Motor</item>
+        <item>ENI</item>
+        <item>J.P. Morgan Chase &amp; Co.</item>
+    </array>
+    
+    <array name="str_array_Tech_fortune100_year2010_revenue">
+        <item>408,214</item>
+        <item>285,129</item>
+        <item>284,650</item>
+        <item>246,138</item>
+        <item>204,106</item>
+        <item>202,196</item>
+        <item>187,518</item>
+        <item>184,496</item>
+        <item>175,257</item>
+        <item>165,496</item>
+        <item>163,527</item>
+        <item>163,204</item>
+        <item>156,779</item>
+        <item>155,887</item>
+        <item>150,450</item>
+        <item>146,205</item>
+        <item>139,515</item>
+        <item>130,708</item>
+        <item>126,012</item>
+        <item>125,999</item>
+        <item>123,018</item>
+        <item>121,452</item>
+        <item>118,308</item>
+        <item>117,235</item>
+        <item>115,632</item>
+    </array>
+    
 </resources>

@@ -4,13 +4,14 @@
 package fr.playsoft.andsink.view.listview;
 
 import fr.playsoft.andsink.BaseListActivity;
+import fr.playsoft.andsink.R;
 
 
 /**
  * @author Admin
  *
  */
-public class ListCustomizeUI extends BaseListActivity {
+public class ListWrapperListAdapter extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -57,14 +58,38 @@ public class ListCustomizeUI extends BaseListActivity {
 	 */
 	@Override
 	public void setupListData() {
-		LISTDATA.add(new String[] {"Default listview", 
-				"Default look-and-feel of ListView of default", 
-				"fr.playsoft.andsink.view.listview.ListUIDefault"});
 		
-		LISTDATA.add(new String[] {"Custom listview", 
-				"Customize look-and-feel of ListView instead of default", 
-				"fr.playsoft.andsink.view.listview.ListUIBeauty"});
-
+		LISTDATA.add(new String[] {"Base Adapter ^", 
+				"Binding data using Base Adapter", 
+				"fr.playsoft.andsink.view.listview.ListBaseAdapter"});
+		
+		LISTDATA.add(new String[] {"Array Adapter *", 
+				"Binding data using Array Adapter", 
+				"fr.playsoft.andsink.view.listview.ListArrayAdapter"});
+		
+		LISTDATA.add(new String[] {"Cursor Adapter *", 
+				"Binding data using Cursor Adapter", 
+				"fr.playsoft.andsink.view.listview.ListCursorAdapter"});
+		
+		LISTDATA.add(new String[] {"ResourceCursorAdapter *", 
+				"Binding data using ResourceCursorAdapter", 
+				"fr.playsoft.andsink.view.listview.ListResourceCursorAdapter"});
+		
+		LISTDATA.add(new String[] {"Spinner Adapter *", 
+				"Binding data using Spinner Adapter", 
+				"fr.playsoft.andsink.view.listview.ListSpinnerAdapter"});
+		
+		LISTDATA.add(new String[] {"Simple Adapter *", 
+				"Binding data using Simple Adapter", 
+				"fr.playsoft.andsink.view.listview.ListSimpleAdapter"});
+		
+		LISTDATA.add(new String[] {"SimpleCursorAdapter *", 
+				"Binding data using SimpleCursorAdapter", 
+				"fr.playsoft.andsink.view.listview.ListSimpleCursorAdapter"});
+		
+		LISTDATA.add(new String[] {"WrapperListAdapter *", 
+				"Binding data using WrapperListAdapter", 
+				"fr.playsoft.andsink.view.listview.ListWrapperListAdapter"});
 		
 	}
 

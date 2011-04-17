@@ -93,11 +93,28 @@
 		<activity android:name=".view.ListView" ></activity>
 		<activity android:name=".view.listview.ListCustomizeUI" ></activity>
 		<activity android:name=".view.listview.ListUIDefault" ></activity>
-		
+		<activity android:name=".view.listview.ListUIBeauty" ></activity>		
 		
 		<activity android:name=".view.listview.ListAdapter" ></activity>
+		
+		<activity android:name=".view.listview.ListArrayAdapter" ></activity>
+		<activity android:name=".view.listview.ListArrayAdapter1" ></activity>
+		<activity android:name=".view.listview.ListArrayAdapter2" ></activity>
+		<activity android:name=".view.listview.ListArrayAdapter3" ></activity>
+		<activity android:name=".view.listview.ListArrayAdapter4" ></activity>
+		
+		<activity android:name=".view.listview.ListBaseAdapter" ></activity>
+		<activity android:name=".view.listview.ListCursorAdapter" ></activity>
+		<activity android:name=".view.listview.ListResourceCursorAdapter" ></activity>
+		<activity android:name=".view.listview.ListSimpleAdapter" ></activity>
+		<activity android:name=".view.listview.ListSimpleCursorAdapter" ></activity>
+		<activity android:name=".view.listview.ListSpinnerAdapter" ></activity>
+		<activity android:name=".view.listview.ListWrapperListAdapter" ></activity>
+		
 		<activity android:name=".view.listview.ListEffect" ></activity>
 		<activity android:name=".view.listview.ListSeparator" ></activity>
+		<activity android:name=".view.listview.ListHeaderFooter" ></activity>
+		<activity android:name=".view.listview.ListEvent" ></activity>
 		<activity android:name=".view.listview.ListChoiceMode" ></activity>
 		<activity android:name=".view.listview.ListExpandable" ></activity>
 		<activity android:name=".view.listview.ListSample" ></activity>
