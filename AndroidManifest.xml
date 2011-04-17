@@ -89,6 +89,20 @@
 		<activity android:name=".view.anim.NestedAnim" ></activity>
 		<!-- ~~~ Views -> Animations ~~~ -->
 		
+		<!-- Views -> ListView -->
+		<activity android:name=".view.ListView" ></activity>
+		<activity android:name=".view.listview.ListCustomizeUI" ></activity>
+		<activity android:name=".view.listview.ListUIDefault" ></activity>
+		
+		
+		<activity android:name=".view.listview.ListAdapter" ></activity>
+		<activity android:name=".view.listview.ListEffect" ></activity>
+		<activity android:name=".view.listview.ListSeparator" ></activity>
+		<activity android:name=".view.listview.ListChoiceMode" ></activity>
+		<activity android:name=".view.listview.ListExpandable" ></activity>
+		<activity android:name=".view.listview.ListSample" ></activity>
+		
+		
 		<!-- Views -> Visibility -->
 		<activity android:name=".view.ViewVisibility" ></activity>
 		<!-- ~~~ Views -> Visibility ~~~ -->
