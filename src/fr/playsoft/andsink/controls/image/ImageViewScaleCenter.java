@@ -21,6 +21,12 @@ public class ImageViewScaleCenter extends BaseActivity {
 
 	@Override
 	public void setupOthersInMainLayout() {
+		
+		TextView tv0 = (TextView) findViewById(R.id.iv_scale_l0_txt);
+		tv0.setText("This is the original ImageView " +
+				"w=" + (int)getResources().getDimension(R.dimen.iv_scale_ori_w) +
+				", h=" + (int)getResources().getDimension(R.dimen.iv_scale_ori_h));
+		
 		TextView tv1 = (TextView) findViewById(R.id.iv_scale_l1_txt);
 		tv1.setText("ImageView w=" + (int)getResources().getDimension(R.dimen.iv_scale_l1_w) +
 				", h=" + (int)getResources().getDimension(R.dimen.iv_scale_l1_h));
