@@ -132,6 +132,13 @@
 		<activity android:name=".view.tabbar.TabMethod2" ></activity>
 		<activity android:name=".view.tabbar.TabMethod3" ></activity>
 		<activity android:name=".view.tabbar.TabMethod4" ></activity>
+		<activity android:name=".view.tabbar.TabPosition" ></activity>
+		<activity android:name=".view.tabbar.TabPos1" ></activity>
+		<activity android:name=".view.tabbar.TabPos2" ></activity>
+		<activity android:name=".view.tabbar.TabPos3" ></activity>
+		<activity android:name=".view.tabbar.TabEvent" ></activity>
+		<activity android:name=".view.tabbar.TabEvent1" ></activity>
+		<activity android:name=".view.tabbar.TabEvent2" ></activity>
 		
 		<activity android:name=".view.tabbar.TabIntent0" ></activity>
 		<activity android:name=".view.tabbar.TabIntent1" ></activity>
