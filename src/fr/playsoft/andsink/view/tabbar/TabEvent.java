@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.playsoft.andsink.view;
+package fr.playsoft.andsink.view.tabbar;
 
 import fr.playsoft.andsink.BaseListActivity;
 
@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseListActivity;
  * @author Admin
  *
  */
-public class TabBar extends BaseListActivity {
+public class TabEvent extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -55,17 +55,12 @@ public class TabBar extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Creating tabbar", 
-				"There are many ways to create Android tabbar",	
-				"fr.playsoft.andsink.view.tabbar.CreatingTab"});
-		
-		LISTDATA.add(new String[] {"Tabbar position", 
-				"Change tabbar position in screen",	
-				"fr.playsoft.andsink.view.tabbar.TabPosition"});
-		
-		LISTDATA.add(new String[] {"Tabbar Event", 
-				"Catching tabbar event such as onTouch, onClick, ...",	
-				"fr.playsoft.andsink.view.tabbar.TabEvent"});
+		LISTDATA.add(new String[] {"Tab Click", 
+				"Catching tab click event",	
+				"fr.playsoft.andsink.view.tabbar.TabEvent1"});
+		LISTDATA.add(new String[] {"Tab Touch", 
+				"Catching tab touch event",	
+				"fr.playsoft.andsink.view.tabbar.TabEvent2"});
 		
 	}
 

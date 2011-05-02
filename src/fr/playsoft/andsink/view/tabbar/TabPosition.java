@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.playsoft.andsink.view;
+package fr.playsoft.andsink.view.tabbar;
 
 import fr.playsoft.andsink.BaseListActivity;
 
@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseListActivity;
  * @author Admin
  *
  */
-public class TabBar extends BaseListActivity {
+public class TabPosition extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -55,17 +55,15 @@ public class TabBar extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Creating tabbar", 
-				"There are many ways to create Android tabbar",	
-				"fr.playsoft.andsink.view.tabbar.CreatingTab"});
-		
-		LISTDATA.add(new String[] {"Tabbar position", 
-				"Change tabbar position in screen",	
-				"fr.playsoft.andsink.view.tabbar.TabPosition"});
-		
-		LISTDATA.add(new String[] {"Tabbar Event", 
-				"Catching tabbar event such as onTouch, onClick, ...",	
-				"fr.playsoft.andsink.view.tabbar.TabEvent"});
+		LISTDATA.add(new String[] {"Tab on top", 
+				"Default position of tabbar is on Top",	
+				"fr.playsoft.andsink.view.tabbar.TabPos1"});
+		LISTDATA.add(new String[] {"Tab on bottom", 
+				"Make tab on bottom of screen (iPhone-style)",	
+				"fr.playsoft.andsink.view.tabbar.TabPos2"});
+		LISTDATA.add(new String[] {"Tab in any position", 
+				"Tabbar can be in any position of screen",	
+				"fr.playsoft.andsink.view.tabbar.TabPos3"});
 		
 	}
 
