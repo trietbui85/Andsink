@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/tab_default_view_1"
+	android:background="@color/title_background"
+	>
+	
+	<TextView
+		android:id="@+id/ks_titlebar_text"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:layout_marginLeft="5dip"
+		android:layout_marginRight="5dip"
+		android:text="This is view 1"
+		android:textColor="@color/white"
+		android:textStyle="bold"
+		android:textSize="18sp"
+		android:gravity="center_vertical|left"
+		android:maxLines="2"
+		/>
+	
+</LinearLayout>

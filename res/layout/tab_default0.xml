@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/RootLinearLayoutVertical" >
+	
+	<!-- custom titlebar	 -->
+	<include layout="@layout/ks_custom_titlebar"/> 
+	
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tabhost_main" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingLeft="10dip" android:paddingRight="10dip" />
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>
+
+</LinearLayout>

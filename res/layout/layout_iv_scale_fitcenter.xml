@@ -11,11 +11,11 @@
 	
 	  	<!-- Original Image -->
 	  	<TextView style="@style/TextSectionTitle" 
-	  		android:text="This is original image (w=150, h=200)" />
+	  		android:id="@+id/iv_scale_l0_txt" />
 	  	
 	  	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_margin="10dip"
-	  		android:src="@drawable/mongolia_landscape"
+	  		android:src="@drawable/test_image_medium"
 	  		/>
 	  		
 		<TextView style="@style/TextSectionTitle" 
@@ -29,7 +29,7 @@
 		<ImageView 
 			android:layout_width="@dimen/iv_scale_l1_w" android:layout_height="@dimen/iv_scale_l1_h"
 			android:layout_margin="10dip" android:background="@android:color/darker_gray"
-	  		android:src="@drawable/mongolia_landscape" android:scaleType="fitCenter"
+	  		android:src="@drawable/test_image_medium" android:scaleType="fitCenter"
 	  		/>
 	  	
 	  	<!-- Scale Image (L1bW, L1bH)-->
@@ -38,7 +38,7 @@
 		<ImageView 
 			android:layout_width="@dimen/iv_scale_l1b_w" android:layout_height="@dimen/iv_scale_l1b_h"
 			android:layout_margin="10dip" android:background="@android:color/darker_gray"
-	  		android:src="@drawable/mongolia_landscape" android:scaleType="fitCenter"
+	  		android:src="@drawable/test_image_medium" android:scaleType="fitCenter"
 	  		/>
 	  		
 	  	<!-- Scale Image (L2W, L2H)-->
@@ -47,7 +47,7 @@
 		<ImageView 
 			android:layout_width="@dimen/iv_scale_l2_w" android:layout_height="@dimen/iv_scale_l2_h"
 			android:layout_margin="10dip" android:background="@android:color/darker_gray"
-	  		android:src="@drawable/mongolia_landscape" android:scaleType="fitCenter"
+	  		android:src="@drawable/test_image_medium" android:scaleType="fitCenter"
 	  		/>
 	  	
 	  	<!-- Scale Image (L3W, L3H)-->
@@ -56,7 +56,7 @@
 		<ImageView 
 			android:layout_width="@dimen/iv_scale_l3_w" android:layout_height="@dimen/iv_scale_l3_h"
 			android:layout_margin="10dip" android:background="@android:color/darker_gray"
-	  		android:src="@drawable/mongolia_landscape" android:scaleType="fitCenter"
+	  		android:src="@drawable/test_image_medium" android:scaleType="fitCenter"
 	  		/>
 	  	
 	  	<!-- Scale Image (L4W, L4H)-->
@@ -65,7 +65,7 @@
 		<ImageView 
 			android:layout_width="@dimen/iv_scale_l4_w" android:layout_height="@dimen/iv_scale_l4_h"
 			android:layout_margin="10dip" android:background="@android:color/darker_gray"
-	  		android:src="@drawable/mongolia_landscape" android:scaleType="fitCenter"
+	  		android:src="@drawable/test_image_medium" android:scaleType="fitCenter"
 	  		/>
 		
 		<TextView style="@style/TextSectionTitle" android:text="End of ImageView" />
