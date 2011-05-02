@@ -143,6 +143,11 @@ Maecenas pretium egestas tortor, eget congue purus consectetur eget.
 Sed tristique rutrum facilisis. Maecenas venenatis lorem lacus, quis vehicula risus. 
 Etiam quis magna ac risus blandit placerat a id velit. Etiam at dolor diam.</string>
     
+    <string name="str_textview_4_line">Looking into your dark blue eyes\n
+    I can feel you\'re searching my heart\n
+    You find there\'s no need to hide\n
+    We know that\'s love</string>
+    
     <array name="str_array_Tech_corp">
         <item>Google</item>
         <item>Apple</item>
