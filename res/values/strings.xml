@@ -148,6 +148,10 @@ Etiam quis magna ac risus blandit placerat a id velit. Etiam at dolor diam.</str
     You find there\'s no need to hide\n
     We know that\'s love</string>
     
+    <string name="tab_custom_1_name">Home</string>
+    <string name="tab_custom_2_name">Edit</string>
+    <string name="tab_custom_3_name">Help</string>
+    
     <array name="str_array_Tech_corp">
         <item>Google</item>
         <item>Apple</item>
