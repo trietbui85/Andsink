@@ -38,4 +38,6 @@
 	<dimen name="iv_scale_l4_w">300dip</dimen>
 	<dimen name="iv_scale_l4_h">400dip</dimen>
 	
+	<dimen name="tab_custom_height">40dip</dimen>
+	
 </resources>

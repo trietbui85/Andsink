@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.playsoft.andsink.view;
+package fr.playsoft.andsink.view.tabbar;
 
 import fr.playsoft.andsink.BaseListActivity;
 
@@ -10,7 +10,7 @@ import fr.playsoft.andsink.BaseListActivity;
  * @author Admin
  *
  */
-public class TabBar extends BaseListActivity {
+public class TabCustom extends BaseListActivity {
 	
 	/* (non-Javadoc)
 	 * @see fr.playsoft.android.kstemplate.SetupLayoutListener#setupOthersInTitleBar()
@@ -55,21 +55,26 @@ public class TabBar extends BaseListActivity {
 	@Override
 	public void setupListData() {
 		
-		LISTDATA.add(new String[] {"Creating tabbar", 
-				"There are many ways to create Android tabbar",	
-				"fr.playsoft.andsink.view.tabbar.CreatingTab"});
+		LISTDATA.add(new String[] {"Tab Icon", 
+				"Set tab with default/selected icon",	
+				"fr.playsoft.andsink.view.tabbar.TabCustom1"});
 		
-		LISTDATA.add(new String[] {"Tabbar position", 
-				"Change tabbar position in screen",	
-				"fr.playsoft.andsink.view.tabbar.TabPosition"});
+		LISTDATA.add(new String[] {"Tab Padding", 
+				"Set tab padding left& right to make tab smaller",	
+				"fr.playsoft.andsink.view.tabbar.TabCustom2"});
 		
-		LISTDATA.add(new String[] {"Tabbar Event", 
-				"Catching tabbar event such as onTouch, onClick...",	
-				"fr.playsoft.andsink.view.tabbar.TabEvent"});
+		LISTDATA.add(new String[] {"Tab Height", 
+				"Change height of tabbar",	
+				"fr.playsoft.andsink.view.tabbar.TabCustom3"});
 		
-		LISTDATA.add(new String[] {"Customize tabbar", 
-				"Customize tabbar appearance, make tabbar more eye-catching",	
-				"fr.playsoft.andsink.view.tabbar.TabCustom"});
+		LISTDATA.add(new String[] {"Tab Color", 
+				"Change default tab color",	
+				"fr.playsoft.andsink.view.tabbar.TabCustom4"});
+		
+		LISTDATA.add(new String[] {"Tab Background", 
+				"Set background for tabbar",	
+				"fr.playsoft.andsink.view.tabbar.TabCustom5"});
+		
 		
 	}
 
