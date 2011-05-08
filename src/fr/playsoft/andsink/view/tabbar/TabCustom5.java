@@ -7,13 +7,12 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
-import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import fr.playsoft.andsink.AndSink;
 import fr.playsoft.andsink.R;
 
-public class TabCustom4 extends TabActivity {
+public class TabCustom5 extends TabActivity {
 
 	private TabHost tabHost;
 	Resources res;
@@ -37,12 +36,10 @@ public class TabCustom4 extends TabActivity {
 		TabHost.TabSpec spec = tabHost.newTabSpec(strTitle);
 		
 		View tabIndicator = LayoutInflater.from(this).inflate(
-				R.layout.tab_indicator_layout1, getTabWidget(), false);
+				R.layout.tab_indicator_layout2, getTabWidget(), false);
 
-		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		TextView title = (TextView) tabIndicator.findViewById(R.id.tab_label);
 		title.setText(strTitle);
-		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
-		icon.setImageResource(R.drawable.ic_tab_home_selector);
 
 		spec.setIndicator(tabIndicator);
 		spec.setContent(intent);
@@ -56,12 +53,10 @@ public class TabCustom4 extends TabActivity {
 		TabHost.TabSpec spec = tabHost.newTabSpec(strTitle);
 		
 		View tabIndicator = LayoutInflater.from(this).inflate(
-				R.layout.tab_indicator_layout1, getTabWidget(), false);
+				R.layout.tab_indicator_layout2, getTabWidget(), false);
 
-		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		TextView title = (TextView) tabIndicator.findViewById(R.id.tab_label);
 		title.setText(strTitle);
-		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
-		icon.setImageResource(R.drawable.ic_tab_edit_selector);
 
 		spec.setIndicator(tabIndicator);
 		spec.setContent(intent);
@@ -70,24 +65,22 @@ public class TabCustom4 extends TabActivity {
 	}
 	
 	private TabHost.TabSpec createTab2() {
-		Intent intent = new Intent().setClass(this, TabIntent1.class);
+		Intent intent = new Intent().setClass(this, TabIntent2.class);
 		String strTitle = res.getString(R.string.tab_custom_3_name);
 		TabHost.TabSpec spec = tabHost.newTabSpec(strTitle);
 		
 		View tabIndicator = LayoutInflater.from(this).inflate(
-				R.layout.tab_indicator_layout1, getTabWidget(), false);
+				R.layout.tab_indicator_layout2, getTabWidget(), false);
 
-		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		TextView title = (TextView) tabIndicator.findViewById(R.id.tab_label);
 		title.setText(strTitle);
-		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
-		icon.setImageResource(R.drawable.ic_tab_help_selector);
 
 		spec.setIndicator(tabIndicator);
 		spec.setContent(intent);
 		
 		return spec;
 	}
-	
+    
 	private void setupTabbar() {
 		tabHost = getTabHost(); // The activity TabHost
 		

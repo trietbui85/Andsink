@@ -71,8 +71,8 @@ public class TabCustom extends BaseListActivity {
 				"Change default tab color",	
 				"fr.playsoft.andsink.view.tabbar.TabCustom4"});
 		
-		LISTDATA.add(new String[] {"Tab Background", 
-				"Set background for tabbar",	
+		LISTDATA.add(new String[] {"Tab title", 
+				"Customize title for each tab",	
 				"fr.playsoft.andsink.view.tabbar.TabCustom5"});
 		
 		
