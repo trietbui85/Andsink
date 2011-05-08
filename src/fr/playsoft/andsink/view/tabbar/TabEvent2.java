@@ -8,11 +8,10 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
+import android.view.Window;
 import android.widget.TabHost;
-import android.widget.TextView;
 import android.widget.Toast;
 import fr.playsoft.andsink.AndSink;
-import fr.playsoft.andsink.Constants;
 import fr.playsoft.andsink.R;
 
 public class TabEvent2 extends TabActivity {
@@ -20,7 +19,7 @@ public class TabEvent2 extends TabActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setTitleBarNameFromIntent();
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 
 		setupTabbar();
 
@@ -103,20 +102,6 @@ public class TabEvent2 extends TabActivity {
 			});
         } 
 
-	}
-
-	private void setTitleBarNameFromIntent() {
-		try {
-			String curActivityName = getIntent().getStringExtra(
-					Constants.BASE_ACIVITY_CLASSNAME);
-			if (curActivityName != null) {
-				TextView tvTitleBar = (TextView) findViewById(R.id.ks_titlebar_text);
-				if (tvTitleBar != null)
-					tvTitleBar.setText(curActivityName);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 
 	@SuppressWarnings("unused")

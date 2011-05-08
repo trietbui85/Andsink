@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    <!-- This is customization value for TABBAR -->
     <dimen name="tabbar_corner_radius">0.5dp</dimen>
     <dimen name="tabbar_space_top">0px</dimen>
     <dimen name="tabbar_space">0.5dp</dimen>
     <dimen name="tabbar_space_plus1">1dp</dimen>
-    <dimen name="tabbar_separator_line_w">4dip</dimen>
+    
+    <dimen name="tabbar_bottom_line_top">3dip</dimen>
+    <dimen name="tabbar_corner_bottom_left_radius">0.5dip</dimen>
+    <dimen name="tabbar_corner_bottom_right_radius">0.5dip</dimen>
+	
+	<!-- END customization value for TABBAR -->
 	
 	<dimen name="titlebar_height">50dip</dimen>
 	<dimen name="titlebar_icon_width">56dip</dimen>

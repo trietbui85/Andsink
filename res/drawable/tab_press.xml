@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:left="@dimen/tabbar_space" android:right="@dimen/tabbar_space"> 
+		<shape android:shape="rectangle">
+			<corners android:bottomLeftRadius="@dimen/tabbar_corner_bottom_left_radius"
+				android:bottomRightRadius="@dimen/tabbar_corner_bottom_right_radius" 
+				android:topLeftRadius="@dimen/tabbar_corner_radius"
+				android:topRightRadius="@dimen/tabbar_corner_radius"
+				/>
+				
+<!-- 			<gradient android:angle="90" android:startColor="@color/tabbar_press_start" -->
+<!-- 				android:endColor="@color/tabbar_press_end" /> -->
+				
+			<solid android:color="@color/tabbar_press" />
+			
+			<stroke android:width="1px" android:color="@color/tabbar_thin_line2" />
+		</shape>
+	</item>
+	
+</layer-list>

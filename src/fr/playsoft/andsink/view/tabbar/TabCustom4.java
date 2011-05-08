@@ -4,85 +4,102 @@ import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import fr.playsoft.andsink.AndSink;
-import fr.playsoft.andsink.Constants;
 import fr.playsoft.andsink.R;
 
 public class TabCustom4 extends TabActivity {
 
+	private TabHost tabHost;
+	Resources res;
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setTitleBarNameFromIntent();
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		
 		setContentView(R.layout.tab_custom2);
+		
+		res = getResources(); // Resource object to get Drawables
 		
 		setupTabbar();
 
 	}
+	
+	private TabHost.TabSpec createTab0() {
+		Intent intent = new Intent().setClass(this, TabIntent0.class);
+		String strTitle = res.getString(R.string.tab_custom_1_name);
+		TabHost.TabSpec spec = tabHost.newTabSpec(strTitle);
+		
+		View tabIndicator = LayoutInflater.from(this).inflate(
+				R.layout.tab_layout, getTabWidget(), false);
 
+		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		title.setText(strTitle);
+		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
+		icon.setImageResource(R.drawable.ic_tab_home_selector);
+
+		spec.setIndicator(tabIndicator);
+		spec.setContent(intent);
+		
+		return spec;
+	}
+	
+	private TabHost.TabSpec createTab1() {
+		Intent intent = new Intent().setClass(this, TabIntent1.class);
+		String strTitle = res.getString(R.string.tab_custom_2_name);
+		TabHost.TabSpec spec = tabHost.newTabSpec(strTitle);
+		
+		View tabIndicator = LayoutInflater.from(this).inflate(
+				R.layout.tab_layout, getTabWidget(), false);
+
+		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		title.setText(strTitle);
+		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
+		icon.setImageResource(R.drawable.ic_tab_edit_selector);
+
+		spec.setIndicator(tabIndicator);
+		spec.setContent(intent);
+		
+		return spec;
+	}
+	
+	private TabHost.TabSpec createTab2() {
+		Intent intent = new Intent().setClass(this, TabIntent1.class);
+		String strTitle = res.getString(R.string.tab_custom_3_name);
+		TabHost.TabSpec spec = tabHost.newTabSpec(strTitle);
+		
+		View tabIndicator = LayoutInflater.from(this).inflate(
+				R.layout.tab_layout, getTabWidget(), false);
+
+		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		title.setText(strTitle);
+		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
+		icon.setImageResource(R.drawable.ic_tab_help_selector);
+
+		spec.setIndicator(tabIndicator);
+		spec.setContent(intent);
+		
+		return spec;
+	}
+	
 	private void setupTabbar() {
-		Resources res = getResources(); // Resource object to get Drawables
-		TabHost tabHost = getTabHost(); // The activity TabHost
-		TabHost.TabSpec spec; // Resusable TabSpec for each tab
-		Intent intent; // Reusable Intent for each tab
-		String title;
-		View v;
+		tabHost = getTabHost(); // The activity TabHost
 		
-		// Create an Intent to launch an Activity for the tab (to be reused)
-		intent = new Intent().setClass(this, TabIntent0.class);
-
-		// Initialize a TabSpec for each tab and add it to the TabHost
-		title = res.getString(R.string.tab_custom_1_name);
-		spec = tabHost.newTabSpec(title)
-				.setIndicator(title, res.getDrawable(R.drawable.ic_tab_home_selector))
-				.setContent(intent);
-		tabHost.addTab(spec);
-		v = tabHost.getTabWidget().getChildAt(0);
-		v.setBackgroundResource(R.drawable.tab_custom_selector);
+		tabHost.addTab(createTab0());
 		
-		// Do the same for the other tabs
-		intent = new Intent().setClass(this, TabIntent1.class);
-
-		title = res.getString(R.string.tab_custom_2_name);
-		spec = tabHost.newTabSpec(title)
-				.setIndicator(title, res.getDrawable(R.drawable.ic_tab_edit_selector))
-				.setContent(intent);
-		tabHost.addTab(spec);
-		v = tabHost.getTabWidget().getChildAt(1);
-		v.setBackgroundResource(R.drawable.tab_custom_selector);
-
-		intent = new Intent().setClass(this, TabIntent2.class);
-
-		title = res.getString(R.string.tab_custom_3_name);
-		spec = tabHost.newTabSpec(title)
-				.setIndicator(title, res.getDrawable(R.drawable.ic_tab_help_selector))
-				.setContent(intent);
-		tabHost.addTab(spec);
-		v = tabHost.getTabWidget().getChildAt(2);
-		v.setBackgroundResource(R.drawable.tab_custom_selector);
+		tabHost.addTab(createTab1());
 		
-		tabHost.getTabWidget().setDividerDrawable(R.drawable.tab_custom_selector);
-
+		tabHost.addTab(createTab2());
+		
+		tabHost.setCurrentTab(0);
 	}
-
-	private void setTitleBarNameFromIntent() {
-		try {
-			String curActivityName = getIntent().getStringExtra(
-					Constants.BASE_ACIVITY_CLASSNAME);
-			if (curActivityName != null) {
-				TextView tvTitleBar = (TextView) findViewById(R.id.ks_titlebar_text);
-				if (tvTitleBar != null)
-					tvTitleBar.setText(curActivityName);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
+	
 	@SuppressWarnings("unused")
 	private void btn_home_click(View v) {
 		Intent intent = new Intent(this, AndSink.class);

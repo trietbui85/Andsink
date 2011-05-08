@@ -5,10 +5,9 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.TabHost;
-import android.widget.TextView;
 import fr.playsoft.andsink.AndSink;
-import fr.playsoft.andsink.Constants;
 import fr.playsoft.andsink.R;
 
 public class TabMethod1 extends TabActivity {
@@ -16,7 +15,7 @@ public class TabMethod1 extends TabActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setTitleBarNameFromIntent();
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 
 		setupTabbar();
 
@@ -57,21 +56,8 @@ public class TabMethod1 extends TabActivity {
 		tabHost.addTab(spec);
 
 	}
-
-	private void setTitleBarNameFromIntent() {
-		try {
-			String curActivityName = getIntent().getStringExtra(
-					Constants.BASE_ACIVITY_CLASSNAME);
-			if (curActivityName != null) {
-				TextView tvTitleBar = (TextView) findViewById(R.id.ks_titlebar_text);
-				if (tvTitleBar != null)
-					tvTitleBar.setText(curActivityName);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
+	
+	@SuppressWarnings("unused")
 	private void btn_home_click(View v) {
 		Intent intent = new Intent(this, AndSink.class);
 		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

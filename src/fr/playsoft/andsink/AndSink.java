@@ -129,7 +129,7 @@ public class AndSink extends BaseActivity {
 					intent = new Intent(AndSink.this, KSControls.class);
 					break;
 				case 2:
-					intent = new Intent(AndSink.this, KSEmpty.class);
+					intent = new Intent(AndSink.this, KSPhone.class);
 					break;
 				case 3:
 					intent = new Intent(AndSink.this, KSEmpty.class);

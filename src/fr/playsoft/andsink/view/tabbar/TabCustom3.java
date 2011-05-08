@@ -5,20 +5,17 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.TabHost;
-import android.widget.TextView;
 import fr.playsoft.andsink.AndSink;
-import fr.playsoft.andsink.Constants;
 import fr.playsoft.andsink.R;
 
 public class TabCustom3 extends TabActivity {
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-		setTitleBarNameFromIntent();
 		
-//		setContentView(R.layout.tab_custom2);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		
 		setupTabbar();
 
@@ -67,20 +64,6 @@ public class TabCustom3 extends TabActivity {
 		v = tabHost.getTabWidget().getChildAt(2);
 		v.getLayoutParams().height = tabHeight;
 
-	}
-
-	private void setTitleBarNameFromIntent() {
-		try {
-			String curActivityName = getIntent().getStringExtra(
-					Constants.BASE_ACIVITY_CLASSNAME);
-			if (curActivityName != null) {
-				TextView tvTitleBar = (TextView) findViewById(R.id.ks_titlebar_text);
-				if (tvTitleBar != null)
-					tvTitleBar.setText(curActivityName);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 
 	@SuppressWarnings("unused")

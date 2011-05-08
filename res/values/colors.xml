@@ -20,5 +20,27 @@
     <color name="yellow">#FFFF00</color>
     
     <color name="ks_row_push_color">#9BBFB7</color>
+    
+    <!-- This is customization COLOR value for TABBAR -->
+    <color name="tabbar_unselected">#200</color>
+    <color name="tabbar_selected">#ccc</color>
+    <color name="tabbar_press">#fff</color>
+    
+    <color name="tabbar_unselected_start">#200</color>
+	<color name="tabbar_unselected_end">#000</color>
+	
+	<color name="tabbar_selected_end">#ccc</color>
+	
+	<color name="tabbar_press_start">#fff</color>
+	<color name="tabbar_press_end">#000</color>
+	
+<!--	<color name="tabbar_thin_line">#898989</color>-->
+	<color name="tabbar_thin_line1">#ff0000</color>
+	<color name="tabbar_thin_line2">#898989</color>
+	
+	<color name="tabbar_text_selected">#5d5d5d</color>
+	<color name="tabbar_text_unselected">#838183</color>
+	
+	<!-- END customization COLOR value for TABBAR -->
 	
 </resources>
