@@ -75,7 +75,7 @@ public class LLWeight extends BaseActivity {
 		switch (item.getItemId()) {
 		
 	    case R.id.mi_ll5_text_long:
-	    	tv.setText(getString(R.string.STR_LOREM_IPSUM));
+	    	tv.setText(getString(R.string.STR_LOREM_IPSUM_LONG));
 	        return true;
 	    case R.id.mi_ll5_text_short:
 	    	tv.setText(getString(R.string.press_menu));

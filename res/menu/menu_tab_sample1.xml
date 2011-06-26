@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/menu_item_actualites" android:icon="@drawable/mi_actus"
+		android:title="News" />
+	<item android:id="@+id/menu_item_festival" android:icon="@drawable/mi_selection"
+		android:title="Festival" />
+	<item android:id="@+id/menu_item_multimedia" android:icon="@drawable/mi_multimedia"
+		android:title="Multimedia" />
+	<item android:id="@+id/menu_item_presse" android:icon="@drawable/mi_festival"
+		android:title="Presse" />
+	<item android:id="@+id/menu_item_orange" android:icon="@drawable/mi_orange"
+		android:title="Orange" />
+	
+</menu>

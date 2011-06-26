@@ -83,7 +83,7 @@ public class ListView extends BaseListActivity {
 				"fr.playsoft.andsink.view.listview.ListExpandable"});
 		
 		LISTDATA.add(new String[] {"Sample *", 
-				"Collective and high quality sample of listview, often use in real project", 
+				"Collective and high quality samples of listview, often use in real project", 
 				"fr.playsoft.andsink.view.listview.ListSample"});
 		
 	}

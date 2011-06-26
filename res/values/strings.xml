@@ -124,7 +124,35 @@
     <string name="STR_FACEBOOK_FAILED">Sorry, sharing via Facebook failed.</string>
     <string name="STR_FACEBOOK_SUCCESSFUL">Congrat! Sharing via Facebook successful.</string>
     
-    <string name="STR_LOREM_IPSUM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    <string name="STR_LOREM_IPSUM_0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nunc aliquet leo sed dolor egestas sit amet pretium urna fermentum. 
+    Sed eget diam eget dui aliquam faucibus et sit amet justo. 
+    Vivamus auctor massa ut nibh tempus id eleifend lorem suscipit.</string>
+    
+    <string name="STR_LOREM_IPSUM_1">Vivamus auctor massa ut nibh tempus id eleifend lorem suscipit. 
+    Sed viverra sagittis dui non aliquet. Nulla facilisi. 
+    Donec blandit convallis arcu eget imperdiet. 
+    Phasellus imperdiet accumsan arcu, nec molestie tortor dignissim id. 
+    Praesent scelerisque odio sit amet lectus commodo placerat. </string>
+    
+    <string name="STR_LOREM_IPSUM_2">Sed vel magna neque. Aliquam erat volutpat. 
+Suspendisse potenti. Integer at est quis quam facilisis pellentesque nec suscipit est. 
+Sed id mauris in turpis sollicitudin rhoncus nec non urna. 
+Fusce et arcu velit, nec sagittis risus. </string>
+    
+    <string name="STR_LOREM_IPSUM_3">Cras laoreet mauris eget mauris fringilla ut 
+    hendrerit velit accumsan. Proin id libero sed ante vulputate semper. 
+    Integer aliquam purus ut turpis sollicitudin ultricies. 
+    Vestibulum ipsum tellus, adipiscing a commodo a, porttitor semper ipsum. 
+    Aenean tristique semper sem vel egestas. Suspendisse potenti.</string>
+    
+    <string name="STR_LOREM_IPSUM_4">Phasellus sapien mauris, cursus et dictum quis, 
+    mattis vel justo. Integer fermentum pretium tempus. 
+    Aliquam eleifend, magna et tincidunt sollicitudin, magna mauris 
+    pharetra mauris, et varius felis nisl in sapien. Suspendisse at 
+    nibh ac magna sodales bibendum at sit amet leo.</string>
+    
+    <string name="STR_LOREM_IPSUM_LONG">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nunc aliquet leo sed dolor egestas sit amet pretium urna fermentum. 
     Sed eget diam eget dui aliquam faucibus et sit amet justo. 
     Vivamus auctor massa ut nibh tempus id eleifend lorem suscipit. 

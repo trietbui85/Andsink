@@ -24,7 +24,7 @@
 				android:layout_height="fill_parent">
 			
 			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:text="@string/STR_LOREM_IPSUM" 
+				android:text="@string/STR_LOREM_IPSUM_LONG" 
 				 android:id="@+id/layout_ll_5_weight_txt"
 				android:textSize="14sp" android:textColor="@color/white"/>
 			</ScrollView>

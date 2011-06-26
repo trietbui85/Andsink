@@ -146,15 +146,19 @@
 		<activity android:name=".view.tabbar.TabCustom3" ></activity>
 		<activity android:name=".view.tabbar.TabCustom4" ></activity>
 		<activity android:name=".view.tabbar.TabCustom5" ></activity>
-		<activity android:name=".view.tabbar.TabCustom6" ></activity>
-		<activity android:name=".view.tabbar.TabCustom7" ></activity>
-		<activity android:name=".view.tabbar.TabCustom8" ></activity>
-		<activity android:name=".view.tabbar.TabCustom9" ></activity>
+		
+		<activity android:name=".view.tabbar.TabSample" ></activity>
+		<activity android:name=".view.tabbar.TabSample1" ></activity>
+		<activity android:name=".view.tabbar.TabSample2" ></activity>
+		<activity android:name=".view.tabbar.TabSample3" ></activity>
+		<activity android:name=".view.tabbar.TabSample4" ></activity>
+		<activity android:name=".view.tabbar.TabSample5" ></activity>
 				
 		<activity android:name=".view.tabbar.TabIntent0" ></activity>
 		<activity android:name=".view.tabbar.TabIntent1" ></activity>
 		<activity android:name=".view.tabbar.TabIntent2" ></activity>
-		
+		<activity android:name=".view.tabbar.TabIntent3" ></activity>
+		<activity android:name=".view.tabbar.TabIntent4" ></activity>
 		
 		<!-- ~~~ Views -> Tabbar ~~~ -->
 		

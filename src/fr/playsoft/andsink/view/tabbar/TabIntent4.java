@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class TabIntent2 extends Activity {
+public class TabIntent4 extends Activity {
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -13,7 +13,7 @@ public class TabIntent2 extends Activity {
 		TextView tv = new TextView(this);
 		
 		tv.setPadding(5, 5, 5, 5);
-		tv.setText(R.string.STR_LOREM_IPSUM_3);
+		tv.setText(R.string.STR_LOREM_IPSUM_4);
 		
 		setContentView(tv);
 	}

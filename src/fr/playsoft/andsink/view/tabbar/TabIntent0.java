@@ -1,5 +1,6 @@
 package fr.playsoft.andsink.view.tabbar;
 
+import fr.playsoft.andsink.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -11,7 +12,8 @@ public class TabIntent0 extends Activity {
 		
 		TextView tv = new TextView(this);
 		
-		tv.setText("This is tab 0 in Intent 0");
+		tv.setPadding(5, 5, 5, 5);
+		tv.setText(R.string.STR_LOREM_IPSUM_0);
 		
 		setContentView(tv);
 	}
